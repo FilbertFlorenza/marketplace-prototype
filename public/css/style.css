@@ -1,0 +1,94 @@
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+.navbar {
+    background-color: #F5F7FF;
+    width: 220px;
+    height: 100vh;
+    overflow: auto;
+}
+
+.welcome-text {
+    color: #757575;
+}
+
+.btn-light {
+    background-color: #ECEFF7;
+}
+
+.btn-light:focus {
+    background-color: #6D34E0;
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-light:focus svg path {
+    stroke: white;
+}
+
+.btn-light:hover {
+    background-color: #ECEFF7;
+    box-shadow: 0 1px 0 rgba(0,0,0,.15);
+    transform: translateY(-0.25em);
+    cursor: pointer;
+    transition: 0.3;
+}
+
+.btn-light:hover svg path {
+    stroke: #6D34E0;
+}
+
+.btn-light:focus ~ p {
+    font-weight: bold;
+    color: #333333;
+}
+
+a:focus .btn-light {
+    background-color: #6D34E0;
+    outline: none;
+    box-shadow: none;
+}
+
+a:focus svg path {
+    stroke: white;
+}
+
+a:hover p {
+    color: #989898;
+}
+
+a:focus p {
+    font-weight: bold;
+    color: #333333;
+}
+
+.btn-text {
+    font-size: 10px;
+}
+
+.text-category {
+    font-size: 12px;
+    color: #333333;
+}
+
+svg {
+    display: block;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #989898;
+}
+
+.detail-heading {
+    color: #333333;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.children-details-card {
+    background-color: #F7F3FF;
+    border-radius: 5px;
+}
