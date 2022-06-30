@@ -936,16 +936,16 @@
     }
 
     $(".submit-btn").click(function(e){
-        // e.preventDefault();
-        // for(var i = 0 ; i < 31 ; i ++){
-        //     if($("input[name='answer-"+i+"']").is(":checked") == false){
-        //         console.log(($(this)));
-        //         return false;
-        //     }else{
-                
-        //     }   
-        // }
-        $("#test-form").submit();
+        e.preventDefault();
+        for (let i = 1; i < 31; i++) {
+            console.log(i);
+            if($('input[name="answer-'+i+'"]').is(":checked") == false){
+                console.log('a');
+                return false;
+            }else{
+                $("#test-form").submit();
+            }       
+        }  
     });
 
 </script>
