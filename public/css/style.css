@@ -223,3 +223,18 @@ a {
     border-radius: 5px;
     background-color: #fff;
 }
+
+.main-group {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 49%;
+}

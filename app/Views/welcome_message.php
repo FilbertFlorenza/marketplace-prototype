@@ -235,14 +235,33 @@
                         </div>
                     </div>
                     <div class="p-2 detail-title">Assesment Test Result</div>
-                    <div class="container">
-                        <div class="row pe-2 ps-2 align-items-center justify-content-around">
-                            <div class="col test-result-card p-2">
+                    <div class="main-group">
+                        <div class="column">
+                            <div class="test-result-card p-2">
                                 <div class="row">
-                                    <div class="col">Bahasa Indonesia</div>
+                                    <div class="col-md-3">Bahasa Indonesia</div>
                                     <div class="col">0/10</div>
-                                    <div class="col">Click to Take Test</div>
-                                    <div class="col">Not Done Yet</div>
+                                    <div class="col" style="color: #e1e1e1">Click to Take Test</div>
+                                    <div class="col text-end pe-4" style="color: #ff0000">Not Done Yet</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="test-result-card p-2">
+                                <div class="row">
+                                    <div class="col-md-3">Basic English</div>
+                                    <div class="col">0/10</div>
+                                    <div class="col" style="color: #e1e1e1">Click to Take Test</div>
+                                    <div class="col text-end pe-4" style="color: #ff0000">Not Done Yet</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="test-result-card p-2">
+                                <div class="row">
+                                    <div class="col-md-3">Math</div>
+                                    <div class="col">10/10</div>
+                                    <div class="col text-end pe-4" style="color: #00FF57">Done</div>
                                 </div>
                             </div>
                         </div>
