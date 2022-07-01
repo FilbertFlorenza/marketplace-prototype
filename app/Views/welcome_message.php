@@ -172,31 +172,42 @@
                 <div class="detail-heading">
                     <p>Your Children Details</p>
                 </div>
-                <div class="p-2 mb-3 children-details-card flex-fill me-3">
+                <div class="p-2 mb-3 children-details-card me-3">
                     <div class="p-2 detail-title">Children details</div>
-                    <div class="d-flex align-items-center justify-content-start pb-2">
-                        <div class="p-2 img-overlay-wrap">
-                            <img src="/images/child-1.png" class="rounded-circle children-detail-pic" width="100px" height="100px"></img>
-                            <a href="#">
-                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M15.0026 2.5C21.9001 2.5 27.5001 8.1 27.5001 14.9975C27.5001 21.8938 21.9001 27.4938 15.0026 27.4938C8.10635 27.4938 2.50635 21.8938 2.50635 14.9975C2.50635 8.1 8.10635 2.5 15.0026 2.5ZM15.0026 4.375C9.1401 4.375 4.38135 9.135 4.38135 14.9975C4.38135 20.86 9.1401 25.6188 15.0026 25.6188C20.8651 25.6188 25.6251 20.86 25.6251 14.9975C25.6251 9.135 20.8651 4.375 15.0026 4.375ZM14.0688 14.0625H9.69385C9.17635 14.0625 8.75635 14.4825 8.75635 15C8.75635 15.5175 9.17635 15.9375 9.69385 15.9375H14.0688V20.3125C14.0688 20.83 14.4888 21.25 15.0063 21.25C15.5238 21.25 15.9438 20.83 15.9438 20.3125V15.9375H20.3188C20.8363 15.9375 21.2563 15.5175 21.2563 15C21.2563 14.4825 20.8363 14.0625 20.3188 14.0625H15.9438V9.6875C15.9438 9.17 15.5238 8.75 15.0063 8.75C14.4888 8.75 14.0688 9.17 14.0688 9.6875V14.0625Z" fill="#A9A9A9"/>
-                                </svg>
-                            </a>
+                    <div class="p-2 row align-items-center mx-auto">
+                        <div class="col-md-4">
+                            <div class="row align-items-center justify-content-start">
+                                <div class="col-md-3 ps-0">
+                                    <div class="img-overlay-wrap">
+                                        <img src="/images/child-1.png" class="rounded-circle children-detail-pic" width="100px" height="100px"></img>
+                                        <a href="#">
+                                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M15.0026 2.5C21.9001 2.5 27.5001 8.1 27.5001 14.9975C27.5001 21.8938 21.9001 27.4938 15.0026 27.4938C8.10635 27.4938 2.50635 21.8938 2.50635 14.9975C2.50635 8.1 8.10635 2.5 15.0026 2.5ZM15.0026 4.375C9.1401 4.375 4.38135 9.135 4.38135 14.9975C4.38135 20.86 9.1401 25.6188 15.0026 25.6188C20.8651 25.6188 25.6251 20.86 25.6251 14.9975C25.6251 9.135 20.8651 4.375 15.0026 4.375ZM14.0688 14.0625H9.69385C9.17635 14.0625 8.75635 14.4825 8.75635 15C8.75635 15.5175 9.17635 15.9375 9.69385 15.9375H14.0688V20.3125C14.0688 20.83 14.4888 21.25 15.0063 21.25C15.5238 21.25 15.9438 20.83 15.9438 20.3125V15.9375H20.3188C20.8363 15.9375 21.2563 15.5175 21.2563 15C21.2563 14.4825 20.8363 14.0625 20.3188 14.0625H15.9438V9.6875C15.9438 9.17 15.5238 8.75 15.0063 8.75C14.4888 8.75 14.0688 9.17 14.0688 9.6875V14.0625Z" fill="#A9A9A9"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <span class="children-fullname"><b>Taty Julia</b></span> <br/>
+                                    <span class="children-nickname">Taty</span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="p-2 ms-2">
-                            <span class="children-fullname"><b>Taty Julia</b></span> <br/>
-                            <span class="children-nickname">Taty</span>
+                        
+                        <div class="col">
+                            <div class="">
+                                <span class="children-detail-subtitle">Child Level</span> <br/>
+                                <span class="children-detail-info"><b>7 - 10 Y.o</b></span>
+                            </div>
                         </div>
-                        <div class="p-2 mx-auto">
-                            <span class="children-detail-subtitle">Child Level</span> <br/>
-                            <span class="children-detail-info"><b>7 - 10 Y.o</b></span>
+                        <div class="col-md-2">
+                            <div class="">
+                                <span class="children-detail-subtitle">Birth Date</span> <br/>
+                                <span class="children-detail-info"><b>22/12/08</b></span>
+                            </div>
                         </div>
-                        <div class="p-2 mx-auto">
-                            <span class="children-detail-subtitle">Birth Date</span> <br/>
-                            <span class="children-detail-info"><b>22/12/08</b></span>
-                        </div>
-                        <div class="ms-5 col-4">
-                            <div class="row">
+                        <div class="col-md-4">
+                            <div class="row align-items-center justify-content-end">
                                 <div class="p-1 col-4 align-self-center">
                                     <a href="#">
                                         <button type="button" class="btn btn-send">
