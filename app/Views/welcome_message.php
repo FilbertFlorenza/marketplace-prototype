@@ -27,7 +27,7 @@
                     <p class="welcome-text">Welcome back! 👋</p>
                     <p class="parent-name">Jim Carrey</p>
                 </div>
-                <div>
+                <div class="col-12">
                     <p class="text-category ps-2"><b>General</b></p>
                     <div class="container text-center">
                         <div class="row row-cols-2 btn-text ">
@@ -99,7 +99,7 @@
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="col-12">
                     <p class="text-category ps-2"><b>Account</b></p>
                     <div class="container text-center">
                         <div class="row row-cols-2 btn-text">
@@ -218,7 +218,7 @@
                                     </a>
                                 </div>
                                 <div class="p-1 col-6">
-                                    <a href="#">
+                                    <a href="<?= base_url('test');?>">
                                         <button type="button" class="btn btn-take-test" style="width: 100%">
                                                 <b>Take Full Assesment Test</b>
                                         </button>

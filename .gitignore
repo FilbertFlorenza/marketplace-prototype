@@ -1,8 +1,12 @@
-env
+.env
+
+/node_modules
 */config/development
 */logs/log-*.php
 !*/logs/index.html
 
+writable/debugbar
+writable/logs
 user_guide_src/build/*
 user_guide_src/cilexer/build/*
 user_guide_src/cilexer/dist/*
