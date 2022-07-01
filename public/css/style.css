@@ -45,6 +45,13 @@ body {
     transition: 0.75s;
 }
 
+.btn-light:active {
+    transform: translateY(0.2em);
+    box-shadow: none;
+    outline: none;
+    transition: 0.25s;
+}
+
 .btn-light:hover svg path {
     stroke: #6D34E0;
 }
@@ -68,7 +75,7 @@ a:hover p {
     color: #989898;
 }
 
-a:focus p {
+a:focus, a:active p {
     font-weight: bold;
     color: #333333;
 }
@@ -153,6 +160,18 @@ a {
     justify-content: center;
     flex-direction: row;
     font-size: 12px;
+    font-weight: 700;
+}
+
+.btn-send:hover {
+    background-color: #6D34E0;
+    border-color: #6D34E0;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 0 2px 0 rgba(0,0,0,.15);
+    transform: translateY(-0.25em);
+    cursor: pointer;
+    transition: 0.75s;
 }
 
 .btn-view-child-profile {
@@ -160,6 +179,18 @@ a {
     border-radius: 5px;
     font-size: 12px;
     color: #fff;
+    font-weight: 700;
+}
+
+.btn-view-child-profile:hover {
+    background-color: #FFB84C;
+    border-color: #FFB84C;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 0 2px 0 rgba(0,0,0,.15);
+    transform: translateY(-0.25em);
+    cursor: pointer;
+    transition: 0.75s;
 }
 
 .btn-take-test {
@@ -170,6 +201,15 @@ a {
     text-align: center;
     font-size: 12px;
     color: #6D34E0;
+}
+
+.btn-take-test:hover {
+    background-color: #F7F3FF;
+    color: #6D34E0;
+    box-shadow: 0 2px 0 rgba(0,0,0,.15);
+    transform: translateY(-0.25em);
+    cursor: pointer;
+    transition: 0.75s;
 }
 
 .test-result-card {

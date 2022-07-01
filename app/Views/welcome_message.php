@@ -193,7 +193,6 @@
                                 </div>
                             </div>
                         </div>
-                        
                         <div class="col">
                             <div class="">
                                 <span class="children-detail-subtitle">Child Level</span> <br/>
@@ -201,10 +200,8 @@
                             </div>
                         </div>
                         <div class="col-md-2">
-                            <div class="">
-                                <span class="children-detail-subtitle">Birth Date</span> <br/>
-                                <span class="children-detail-info"><b>22/12/08</b></span>
-                            </div>
+                            <span class="children-detail-subtitle">Birth Date</span> <br/>
+                            <span class="children-detail-info"><b>22/12/08</b></span>
                         </div>
                         <div class="col-md-4">
                             <div class="row align-items-center justify-content-end">
@@ -235,8 +232,7 @@
                                     </a>
                                 </div>
                             </div>
-                    </div>
-                        
+                        </div>
                     </div>
                     <div class="p-2 detail-title">Assesment Test Result</div>
                     <div class="container">
@@ -253,7 +249,7 @@
                     </div>
                 </div>
                 <div class="p-2 ps-4 mb-3 children-details-card">hihi</div>
-            </div>            
+            </div>         
         </div>
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
