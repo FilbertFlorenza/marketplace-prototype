@@ -19,12 +19,13 @@
 
     <body>
         <div class="d-flex">
-            <div class="d-flex p-2 navbar flex-column align-items-start justify-content-center">
-                <div class="ps-2 pb-2">
+            <div class="d-flex p-2 pt-0 navbar flex-column align-items-start justify-content-center">
+                <div class="ps-2 pb-4">
                     <img src="https://avatars.githubusercontent.com/u/37895899?s=40&v=4" class="rounded-circle" width="45px" height="45px">
                 </div>
-                <div class="ps-2 welcome-text">
-                    <p>Welcome back! 👋 <br> <b>Jim Carrey</b> </p>
+                <div class="ps-2">
+                    <p class="welcome-text">Welcome back! 👋</p>
+                    <p class="parent-name">Jim Carrey</p>
                 </div>
                 <div>
                     <p class="text-category ps-2"><b>General</b></p>
@@ -167,12 +168,78 @@
                 </div>
             </div>
 
-            <div class="d-flex p-2 flex-column p-2 pt-5 ps-4">
+            <div class="d-flex p-2 flex-column p-2 pt-5 ps-4 flex-fill">
                 <div class="detail-heading">
                     <p>Your Children Details</p>
-                </div>  
-                <div class="p-2 ps-4 mb-3 children-details-card">
-                    
+                </div>
+                <div class="p-2 mb-3 children-details-card flex-fill me-3">
+                    <div class="p-2 detail-title">Children details</div>
+                    <div class="d-flex align-items-center justify-content-start pb-2">
+                        <div class="p-2 img-overlay-wrap">
+                            <img src="/images/child-1.png" class="rounded-circle children-detail-pic" width="100px" height="100px"></img>
+                            <a href="#">
+                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.0026 2.5C21.9001 2.5 27.5001 8.1 27.5001 14.9975C27.5001 21.8938 21.9001 27.4938 15.0026 27.4938C8.10635 27.4938 2.50635 21.8938 2.50635 14.9975C2.50635 8.1 8.10635 2.5 15.0026 2.5ZM15.0026 4.375C9.1401 4.375 4.38135 9.135 4.38135 14.9975C4.38135 20.86 9.1401 25.6188 15.0026 25.6188C20.8651 25.6188 25.6251 20.86 25.6251 14.9975C25.6251 9.135 20.8651 4.375 15.0026 4.375ZM14.0688 14.0625H9.69385C9.17635 14.0625 8.75635 14.4825 8.75635 15C8.75635 15.5175 9.17635 15.9375 9.69385 15.9375H14.0688V20.3125C14.0688 20.83 14.4888 21.25 15.0063 21.25C15.5238 21.25 15.9438 20.83 15.9438 20.3125V15.9375H20.3188C20.8363 15.9375 21.2563 15.5175 21.2563 15C21.2563 14.4825 20.8363 14.0625 20.3188 14.0625H15.9438V9.6875C15.9438 9.17 15.5238 8.75 15.0063 8.75C14.4888 8.75 14.0688 9.17 14.0688 9.6875V14.0625Z" fill="#A9A9A9"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="p-2 ms-2">
+                            <span class="children-fullname"><b>Taty Julia</b></span> <br/>
+                            <span class="children-nickname">Taty</span>
+                        </div>
+                        <div class="p-2 mx-auto">
+                            <span class="children-detail-subtitle">Child Level</span> <br/>
+                            <span class="children-detail-info"><b>7 - 10 Y.o</b></span>
+                        </div>
+                        <div class="p-2 mx-auto">
+                            <span class="children-detail-subtitle">Birth Date</span> <br/>
+                            <span class="children-detail-info"><b>22/12/08</b></span>
+                        </div>
+                        <div class="ms-5 col-4">
+                            <div class="row">
+                                <div class="p-1 col-4 align-self-center">
+                                    <a href="#">
+                                        <button type="button" class="btn btn-send">
+                                            <div style="margin-right: 10px">
+                                                <svg width="14" height="14" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M0 5L4.58333 6.29167L7.5 2.91667L4.10167 5.28L2.305 4.77917L8.70583 1.57917L7.05 7.65L5.4875 6.25875L4.58333 7.4775V7.15708L3.75 6.92375V10L5.61375 7.48708L7.5 9.16667L10 0L0 5Z" fill="white"/>
+                                                </svg>
+                                            </div> 
+                                            Send Link
+                                        </button>
+                                    </a>
+                                </div>
+                                <div class="p-1 col-6">
+                                    <a href="#">
+                                        <button type="button" class="btn btn-take-test" style="width: 100%">
+                                                <b>Take Full Assesment Test</b>
+                                        </button>
+                                    </a>
+                                </div>
+                                <div class="p-1 col-10">
+                                    <a href="#">
+                                        <button type="button" class="btn btn-view-child-profile" style="width: 100%">
+                                            View Child Profile
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                    </div>
+                        
+                    </div>
+                    <div class="p-2 detail-title">Assesment Test Result</div>
+                    <div class="container">
+                        <div class="row pe-2 ps-2 align-items-center justify-content-around">
+                            <div class="col test-result-card p-2">
+                                <div class="row">
+                                    <div class="col">Bahasa Indonesia</div>
+                                    <div class="col">0/10</div>
+                                    <div class="col">Click to Take Test</div>
+                                    <div class="col">Not Done Yet</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="p-2 ps-4 mb-3 children-details-card">hihi</div>
             </div>            

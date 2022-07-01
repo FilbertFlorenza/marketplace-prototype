@@ -1,5 +1,7 @@
 body {
     font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
 }
 
 .navbar {
@@ -11,6 +13,14 @@ body {
 
 .welcome-text {
     color: #757575;
+    font-size: 14px;
+    line-height: 0px;
+}
+
+.parent-name {
+    color: #757575;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .btn-light {
@@ -29,10 +39,10 @@ body {
 
 .btn-light:hover {
     background-color: #ECEFF7;
-    box-shadow: 0 1px 0 rgba(0,0,0,.15);
+    box-shadow: 0 2px 0 rgba(0,0,0,.15);
     transform: translateY(-0.25em);
     cursor: pointer;
-    transition: 0.3;
+    transition: 0.75s;
 }
 
 .btn-light:hover svg path {
@@ -91,4 +101,78 @@ a {
 .children-details-card {
     background-color: #F7F3FF;
     border-radius: 5px;
+}
+
+.detail-title {
+    color: #333333;
+    font-size: 12px;
+}
+
+.children-detail-pic {
+    object-fit: cover;
+}
+
+.children-fullname {
+    color: #333333;
+    font-size: 24px;
+}
+
+.children-nickname {
+    color: #c5c5c5;
+    font-size: 15px;
+}
+
+.children-detail-subtitle {
+    color: #c5c5c5;
+    font-size: 15px;
+}
+
+.children-detail-info {
+    color: #333333;
+    font-size: 24px;
+}
+
+.img-overlay-wrap {
+    position: relative;
+    display: inline-block;
+}
+
+.img-overlay-wrap svg {
+    position: absolute;
+    top: 78.5px;
+    left: 78.5px;
+}
+
+.btn-send {
+    background-color: #6D34E0;
+    border-radius: 5px;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 12px;
+}
+
+.btn-view-child-profile {
+    background-color: #FFB84C;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.btn-take-test {
+    background-color: #F7F3FF;
+    border: 2px solid #6D34E0;
+    border-radius: 5px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 12px;
+    color: #6D34E0;
+}
+
+.test-result-card {
+    border-radius: 5px;
+    background-color: #fff;
 }
