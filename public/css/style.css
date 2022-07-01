@@ -96,7 +96,11 @@ svg {
 
 a {
     text-decoration: none;
-    color: #989898;
+    color: #333333;
+}
+
+a:hover {
+    color: #6D34E0;
 }
 
 .detail-heading {
@@ -237,4 +241,8 @@ a {
     flex-direction: column;
     margin: 5px;
     width: 49%;
+}
+
+.test-result-detail {
+    font-size: 10px;
 }

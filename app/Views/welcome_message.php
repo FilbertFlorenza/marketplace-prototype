@@ -32,7 +32,7 @@
                     <div class="container text-center">
                         <div class="row row-cols-2 btn-text ">
                             <div class="col">
-                                <a href="#">
+                                <a href="#" style="color: #989898;">
                                     <button type="button" class="btn btn-light btn-md">
                                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 5.41667C2.5 3.22899 2.52342 2.5 5.41667 2.5C8.30991 2.5 8.33333 3.22899 8.33333 5.41667C8.33333 7.60434 8.34256 8.33333 5.41667 8.33333C2.49077 8.33333 2.5 7.60434 2.5 5.41667Z" stroke="#6D34E0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -45,7 +45,7 @@
                                 </a>
                             </div>
                             <div class="col">
-                                <a href="#">
+                                <a href="#" style="color: #989898;">
                                     <button type="button" class="btn btn-light btn-md">
                                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M13.7615 17.9168H6.80495C4.24965 17.9168 2.28931 16.9939 2.84614 13.2791L3.4945 8.24481C3.83775 6.39127 5.02005 5.68188 6.05743 5.68188H14.5395C15.5921 5.68188 16.7058 6.44466 17.1024 8.24481L17.7508 13.2791C18.2237 16.5743 16.3168 17.9168 13.7615 17.9168Z" stroke="#6D34E0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -58,7 +58,7 @@
                                 </a>
                             </div>
                             <div class="col">
-                                <a href="#">
+                                <a href="#" style="color: #989898;">
                                     <button type="button" class="btn btn-light btn-md">
                                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path opacity="0.4" d="M2.57715 7.83688H17.4304" stroke="#6D34E0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -72,7 +72,7 @@
                                 </a>
                             </div>
                             <div class="col">
-                                <a href="#">
+                                <a href="#" style="color: #989898;">
                                     <button type="button" class="btn btn-light btn-md">
                                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path opacity="0.4" d="M14.9065 9.08044C16.069 8.91711 16.964 7.92044 16.9665 6.71294C16.9665 5.52294 16.099 4.53628 14.9615 4.34961" stroke="#6D34E0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -87,7 +87,7 @@
                                 </a>
                             </div>
                             <div class="col">
-                                <a href="#">
+                                <a href="#" style="color: #989898;">
                                     <button type="button" class="btn btn-light btn-md">
                                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M10.9202 3.48092L12.4431 6.52321C12.5923 6.82188 12.8804 7.02898 13.2145 7.0769L16.6211 7.56726C17.4628 7.68878 17.7977 8.70887 17.1886 9.29337L14.7252 11.6604C14.4831 11.8932 14.3729 12.2278 14.4301 12.5564L15.0115 15.8983C15.1547 16.7249 14.2748 17.3557 13.5225 16.9646L10.4777 15.3857C10.1792 15.2308 9.82168 15.2308 9.52232 15.3857L6.4775 16.9646C5.72519 17.3557 4.84533 16.7249 4.98937 15.8983L5.56987 12.5564C5.62714 12.2278 5.51694 11.8932 5.27485 11.6604L2.8114 9.29337C2.20226 8.70887 2.5372 7.68878 3.37889 7.56726L6.78554 7.0769C7.11961 7.02898 7.40856 6.82188 7.55781 6.52321L9.07979 3.48092C9.45638 2.72869 10.5436 2.72869 10.9202 3.48092Z" stroke="#6D34E0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -104,7 +104,7 @@
                     <div class="container text-center">
                         <div class="row row-cols-2 btn-text">
                             <div class="col">
-                                <a href="#">
+                                <a href="#" style="color: #989898;">
                                     <button type="button" class="btn btn-light btn-md">
                                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M17.3389 6.35305L16.8202 5.45298C16.3814 4.69138 15.409 4.42864 14.6463 4.86564V4.86564C14.2833 5.07949 13.8501 5.14017 13.4423 5.03428C13.0345 4.92839 12.6855 4.66464 12.4724 4.30118C12.3353 4.07016 12.2616 3.80704 12.2588 3.53841V3.53841C12.2712 3.10773 12.1087 2.69038 11.8084 2.38143C11.5081 2.07249 11.0955 1.89826 10.6646 1.89844H9.61962C9.19751 1.89843 8.7928 2.06664 8.49504 2.36583C8.19728 2.66502 8.03102 3.07053 8.03305 3.49264V3.49264C8.02054 4.36415 7.31044 5.06405 6.43885 5.06396C6.17022 5.06117 5.90709 4.98749 5.67607 4.85038V4.85038C4.91343 4.41339 3.94097 4.67612 3.50216 5.43772L2.94533 6.35305C2.50705 7.1137 2.76621 8.08555 3.52504 8.52697V8.52697C4.01829 8.81174 4.32215 9.33803 4.32215 9.90759C4.32215 10.4771 4.01829 11.0034 3.52504 11.2882V11.2882C2.76717 11.7267 2.50773 12.6961 2.94533 13.4545V13.4545L3.47165 14.3622C3.67725 14.7332 4.02221 15.007 4.4302 15.1229C4.83819 15.2389 5.27557 15.1875 5.64556 14.9801V14.9801C6.00927 14.7678 6.4427 14.7097 6.84949 14.8185C7.25628 14.9274 7.60274 15.1942 7.81184 15.5598C7.94896 15.7908 8.02263 16.0539 8.02542 16.3225V16.3225C8.02542 17.203 8.73917 17.9167 9.61962 17.9167H10.6646C11.5421 17.9168 12.2546 17.2076 12.2588 16.3302V16.3302C12.2568 15.9067 12.4241 15.5001 12.7235 15.2006C13.0229 14.9012 13.4296 14.7339 13.853 14.736C14.121 14.7431 14.3831 14.8165 14.6158 14.9495V14.9495C15.3765 15.3878 16.3483 15.1287 16.7897 14.3698V14.3698L17.3389 13.4545C17.5515 13.0896 17.6098 12.655 17.501 12.247C17.3922 11.839 17.1252 11.4912 16.7592 11.2806V11.2806C16.3932 11.07 16.1262 10.7222 16.0174 10.3142C15.9086 9.90613 15.9669 9.47156 16.1795 9.10668C16.3177 8.86532 16.5179 8.66521 16.7592 8.52697V8.52697C17.5135 8.08579 17.772 7.11962 17.3389 6.36068V6.36068V6.35305Z" stroke="#6D34E0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -115,7 +115,7 @@
                                 </a>
                             </div>
                             <div class="col">
-                                <a href="#">
+                                <a href="#" style="color: #989898;">
                                     <button type="button" class="btn btn-light btn-md">
                                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M10.0001 14.8731C14.6994 14.8731 16.8735 14.2703 17.0834 11.8505C17.0834 9.43241 15.5677 9.58791 15.5677 6.62101C15.5677 4.30353 13.3711 1.66675 10.0001 1.66675C6.62906 1.66675 4.43245 4.30353 4.43245 6.62101C4.43245 9.58791 2.91675 9.43241 2.91675 11.8505C3.12754 14.2794 5.30156 14.8731 10.0001 14.8731Z" stroke="#6D34E0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -126,7 +126,7 @@
                                 </a>
                             </div>
                             <div class="col">
-                                <a href="#">
+                                <a href="#" style="color: #989898;">
                                     <button type="button" class="btn btn-light btn-md">
                                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path opacity="0.4" d="M13.0967 13.5194H7.08008" stroke="#6D34E0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -139,7 +139,7 @@
                                 </a>
                             </div>
                             <div class="col">
-                                <a href="#">
+                                <a href="#" style="color: #989898;">
                                     <button type="button" class="btn btn-light btn-md">
                                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M13.612 2.29175H6.38783C3.87033 2.29175 2.29199 4.07425 2.29199 6.59675V13.4034C2.29199 15.9259 3.86283 17.7084 6.38783 17.7084H13.6112C16.137 17.7084 17.7087 15.9259 17.7087 13.4034V6.59675C17.7087 4.07425 16.137 2.29175 13.612 2.29175Z" stroke="#6D34E0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -152,7 +152,7 @@
                                 </a>
                             </div>
                             <div class="col">
-                                <a href="#">
+                                <a href="#" style="color: #989898;">
                                     <button type="button" class="btn btn-light btn-md">
                                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path opacity="0.4" d="M12.5134 6.1579V5.3804C12.5134 3.68457 11.1384 2.30957 9.44256 2.30957H5.38006C3.68506 2.30957 2.31006 3.68457 2.31006 5.3804V14.6554C2.31006 16.3512 3.68506 17.7262 5.38006 17.7262H9.45089C11.1417 17.7262 12.5134 16.3554 12.5134 14.6646V13.8787" stroke="#6D34E0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -238,30 +238,49 @@
                     <div class="main-group">
                         <div class="column">
                             <div class="test-result-card p-2">
-                                <div class="row">
-                                    <div class="col-md-3">Bahasa Indonesia</div>
-                                    <div class="col">0/10</div>
-                                    <div class="col" style="color: #e1e1e1">Click to Take Test</div>
-                                    <div class="col text-end pe-4" style="color: #ff0000">Not Done Yet</div>
-                                </div>
+                                <a href="#">
+                                    <div class="row">
+                                        <div class="col-md-3">Bahasa Indonesia</div>
+                                        <div class="col">0/10</div>
+                                        <div class="col" style="color: #e1e1e1">Click to Take Test</div>
+                                        <div class="col text-end pe-4" style="color: #ff0000">Not Done Yet</div>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                         <div class="column">
                             <div class="test-result-card p-2">
-                                <div class="row">
-                                    <div class="col-md-3">Basic English</div>
-                                    <div class="col">0/10</div>
-                                    <div class="col" style="color: #e1e1e1">Click to Take Test</div>
-                                    <div class="col text-end pe-4" style="color: #ff0000">Not Done Yet</div>
-                                </div>
-                            </div>
+                                <a href="#">
+                                    <div class="row">
+                                        <div class="col-md-3">Basic English</div>
+                                        <div class="col">0/10</div>
+                                        <div class="col" style="color: #e1e1e1">Click to Take Test</div>
+                                        <div class="col text-end pe-4" style="color: #ff0000">Not Done Yet</div>
+                                    </div>
+                                </a>
+                            </div> 
                         </div>
                         <div class="column">
                             <div class="test-result-card p-2">
-                                <div class="row">
-                                    <div class="col-md-3">Math</div>
-                                    <div class="col">10/10</div>
-                                    <div class="col text-end pe-4" style="color: #00FF57">Done</div>
+                                <a data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    <div class="row">
+                                        <div class="col-md-3">Math</div>
+                                        <div class="col">10/10</div>
+                                        <div class="col text-end pe-4" style="color: #00FF57">Done</div>
+                                    </div>
+                                </a>
+                                <div class="collapse" id="collapseExample">
+                                    <hr>
+                                    <div class="row test-result-detail">
+                                        <div class="col-md-3">Result</div>
+                                        <div class="col">Corrected Answer</div>
+                                        <div class="col text-end pe-4">Status</div>
+                                    </div>
+                                    <div class="row test-result-detail">
+                                        <div class="col-md-3" style="color: #c5c5c5">10/10</div>
+                                        <div class="col" style="color: #00FF57">8/10</div>
+                                        <div class="col text-end pe-4" style="color: #00FF57">Passed</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
