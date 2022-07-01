@@ -168,11 +168,11 @@
                 </div>
             </div>
 
-            <div class="d-flex p-2 flex-column p-2 pt-5 ps-4 flex-fill">
+            <div class="d-flex p-2 flex-column p-2 pt-5 ps-4" style="overflow-y: auto; max-height: 100vh;">
                 <div class="detail-heading">
                     <p>Your Children Details</p>
                 </div>
-                <div class="p-2 mb-3 children-details-card me-3">
+                <div class="p-2 mb-3 me-3 children-details-card">
                     <div class="p-2 detail-title">Children details</div>
                     <div class="p-2 row align-items-center mx-auto">
                         <div class="col-md-4">
@@ -240,7 +240,7 @@
                             <div class="test-result-card p-2">
                                 <a href="#">
                                     <div class="row">
-                                        <div class="col-md-3">Bahasa Indonesia</div>
+                                        <div class="col-md-4">Bahasa Indonesia</div>
                                         <div class="col">0/10</div>
                                         <div class="col" style="color: #e1e1e1">Click to Take Test</div>
                                         <div class="col text-end pe-4" style="color: #ff0000">Not Done Yet</div>
@@ -252,8 +252,8 @@
                             <div class="test-result-card p-2">
                                 <a href="#">
                                     <div class="row">
-                                        <div class="col-md-3">Basic English</div>
-                                        <div class="col">0/10</div>
+                                        <div class="col-md-4">Basic English</div>
+                                        <div class="col">0/20</div>
                                         <div class="col" style="color: #e1e1e1">Click to Take Test</div>
                                         <div class="col text-end pe-4" style="color: #ff0000">Not Done Yet</div>
                                     </div>
@@ -262,14 +262,14 @@
                         </div>
                         <div class="column">
                             <div class="test-result-card p-2">
-                                <a data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                <a data-bs-toggle="collapse" href="#math-test-result" role="button" aria-expanded="false" aria-controls="math-test-result">
                                     <div class="row">
-                                        <div class="col-md-3">Math</div>
+                                        <div class="col-md-4">Math</div>
                                         <div class="col">10/10</div>
                                         <div class="col text-end pe-4" style="color: #00FF57">Done</div>
                                     </div>
                                 </a>
-                                <div class="collapse" id="collapseExample">
+                                <div class="collapse" id="math-test-result">
                                     <hr>
                                     <div class="row test-result-detail">
                                         <div class="col-md-3">Result</div>
@@ -284,9 +284,80 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="column">
+                            <div class="test-result-card p-2">
+                                <a href="#">
+                                    <div class="row">
+                                        <div class="col-md-4">Science</div>
+                                        <div class="col">0/10</div>
+                                        <div class="col" style="color: #e1e1e1">Click to Take Test</div>
+                                        <div class="col text-end pe-4" style="color: #ff0000">Not Done Yet</div>
+                                    </div>
+                                </a>
+                            </div> 
+                        </div>
+                        <div class="column">
+                            <div class="test-result-card p-2">
+                                <a href="#">
+                                    <div class="row">
+                                        <div class="col-md-4">Civic</div>
+                                        <div class="col">0/10</div>
+                                        <div class="col" style="color: #e1e1e1">Click to Take Test</div>
+                                        <div class="col text-end pe-4" style="color: #ff0000">Not Done Yet</div>
+                                    </div>
+                                </a>
+                            </div> 
+                        </div>
+                        <div class="column">
+                            <div class="test-result-card p-2">
+                                <a href="#">
+                                    <div class="row">
+                                        <div class="col-md-4">Art</div>
+                                        <div class="col">0/20</div>
+                                        <div class="col" style="color: #e1e1e1">Click to Take Test</div>
+                                        <div class="col text-end pe-4" style="color: #ff0000">Not Done Yet</div>
+                                    </div>
+                                </a>
+                            </div> 
+                        </div>
+                        <div class="column">
+                            <div class="test-result-card p-2">
+                                <a href="#">
+                                    <div class="row">
+                                        <div class="col-md-4">Mother Tongue Languages</div>
+                                        <div class="col">0/10</div>
+                                        <div class="col" style="color: #e1e1e1">Click to Take Test</div>
+                                        <div class="col text-end pe-4" style="color: #ff0000">Not Done Yet</div>
+                                    </div>
+                                </a>
+                            </div> 
+                        </div>
+                        <div class="column">
+                            <div class="test-result-card p-2">
+                                <a data-bs-toggle="collapse" href="#general-knowledge-test-result" role="button" aria-expanded="false" aria-controls="general-knowledge-test-result">
+                                    <div class="row">
+                                        <div class="col-md-4">General Knowledge</div>
+                                        <div class="col">10/10</div>
+                                        <div class="col text-end pe-4" style="color: #00FF57">Done</div>
+                                    </div>
+                                </a>
+                                <div class="collapse" id="general-knowledge-test-result">
+                                    <hr>
+                                    <div class="row test-result-detail">
+                                        <div class="col-md-3">Result</div>
+                                        <div class="col">Corrected Answer</div>
+                                        <div class="col text-end pe-4">Status</div>
+                                    </div>
+                                    <div class="row test-result-detail">
+                                        <div class="col-md-3" style="color: #c5c5c5">10/10</div>
+                                        <div class="col" style="color: #00FF57">8/10</div>
+                                        <div class="col text-end pe-4" style="color: #00FF57">Passed</div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
                     </div>
                 </div>
-                <div class="p-2 ps-4 mb-3 children-details-card">hihi</div>
             </div>         
         </div>
 

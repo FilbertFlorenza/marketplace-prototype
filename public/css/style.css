@@ -6,7 +6,8 @@ body {
 
 .navbar {
     background-color: #F5F7FF;
-    width: 220px;
+    max-width: 220px;
+    min-width: 220px;
     height: 100vh;
     overflow: auto;
 }
@@ -245,4 +246,10 @@ a:hover {
 
 .test-result-detail {
     font-size: 10px;
+}
+
+hr {
+    background-color: #f0f0f0;
+    border: none;
+    height: 2px;
 }
