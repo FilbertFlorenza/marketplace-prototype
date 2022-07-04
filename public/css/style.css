@@ -9,13 +9,15 @@ body {
     max-width: 220px;
     min-width: 220px;
     height: 100vh;
-    overflow: auto;
+    overflow: hidden;
+    flex-wrap: nowrap;
 }
 
 .welcome-text {
     color: #757575;
     font-size: 14px;
     line-height: 0px;
+    font-weight: 400;
 }
 
 .parent-name {
@@ -34,7 +36,38 @@ body {
     box-shadow: none;
 }
 
+.nav-menu-btn {
+    width: 45px;
+    height: 45px;
+}
+
+a:focus .btn-light {
+    background-color: #6D34E0;
+    outline: none;
+    box-shadow: none;
+}
+
+a:focus svg path {
+    stroke: white;
+}
+
+a:focus svg ellipse {
+    stroke: white;
+}
+
+a:hover p {
+    color: #989898;
+}
+
+a:focus p {
+    color: #333333;
+}
+
 .btn-light:focus svg path {
+    stroke: white;
+}
+
+.btn-light:focus svg ellipse {
     stroke: white;
 }
 
@@ -48,9 +81,11 @@ body {
 
 .btn-light:active {
     transform: translateY(0.2em);
-    box-shadow: none;
-    outline: none;
     transition: 0.25s;
+}
+
+.btn-light:active svg path {
+    stroke: #6D34E0;
 }
 
 .btn-light:hover svg path {
@@ -58,26 +93,6 @@ body {
 }
 
 .btn-light:focus ~ p {
-    font-weight: bold;
-    color: #333333;
-}
-
-a:focus .btn-light {
-    background-color: #6D34E0;
-    outline: none;
-    box-shadow: none;
-}
-
-a:focus svg path {
-    stroke: white;
-}
-
-a:hover p {
-    color: #989898;
-}
-
-a:focus, a:active p {
-    font-weight: bold;
     color: #333333;
 }
 
@@ -252,4 +267,36 @@ hr {
     background-color: #f0f0f0;
     border: none;
     height: 2px;
+}
+
+/* this is dekstop first */
+
+/* mobile portrait */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+}
+
+/* mobile landscape */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+/* tablet */
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+
+}
+
+/* small desktop */
+@media only screen and (min-width: 980px) and (max-width: 1023px) {
+
+}
+
+/* typical desktop */
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+
+}
+
+/* large desktop */
+@media only screen and (min-width: 1200px) {
+
 }
