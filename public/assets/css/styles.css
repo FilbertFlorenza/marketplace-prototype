@@ -9,7 +9,7 @@ body{
     background-color: #6D34E0;
     border-radius: 5px;
     padding: 10px;
-    margin: 20px;
+    margin: 20px 0px;
     display: flex;
     font-weight: 700;
 }
@@ -19,7 +19,7 @@ body{
     background-color: #F7F3FF;
     border-radius: 5px;
     padding: 10px;
-    margin: 20px;
+    margin: 20px 0px;
     font-weight: 700;
 }
 
@@ -28,7 +28,7 @@ body{
     background-color: #F7F3FF;
     border-radius: 5px;
     padding: 10px;
-    margin: 20px;
+    margin: 20px 0px;
     text-align: justify;
 }
 
@@ -37,7 +37,7 @@ body{
     background-color: #F7F3FF;
     border-radius: 5px;
     padding: 10px;
-    margin: 20px;
+    margin: 20px 0px;
     font-weight: 700;
 }
 
@@ -51,7 +51,7 @@ body{
 
 /* End Full Assessment Test Page */
 
-.btn{
+.btn-prev, .btn-next{
     padding: 10px 50px;
     border-radius: 8px;
 }
@@ -94,6 +94,10 @@ body{
 }
 
 /* Result Summary Page */
+
+.summary-section{
+    margin-left: 230px;
+}
 .line{
     border:0.5px solid #E6E6E6;
 }
@@ -102,7 +106,7 @@ body{
     background-color: #ffffff;
     border-radius: 5px;
     padding: 20px;
-    margin: 20px;
+    margin: 20px 0px;
 }
 
 .topic-title{
@@ -149,7 +153,7 @@ body{
     position: absolute;
 }
   
-svg {
+.progress-bar-circle svg {
   height: 100px;
   width: 150px;
   fill: none;
@@ -301,4 +305,10 @@ svg {
         margin-top:20px
     }
 }
+
+
+
+
+
+
 
