@@ -19,8 +19,8 @@
 
     <body>
         <div class="d-flex">
-            <div class="d-flex p-2 pt-0 navbar flex-column align-items-start justify-content-center">
-                <div class="ps-2 pb-4 pt-5">
+            <div class="d-flex p-2 pt-0 navbar flex-md-column align-items-start justify-content-center">
+                <div class="ps-2 pb-3 pt-2">
                     <img src="/images/parent.png" class="rounded-circle" width="50px" height="50px">
                 </div>
                 <div class="ps-2">
@@ -30,7 +30,7 @@
                 <div>
                     <p class="text-category ps-2">General</p>
                     <div class="container text-center">
-                        <div class="row row-cols-2 btn-text ">
+                        <div class="row row-cols-2 btn-text">
                             <div class="col">
                                 <a href="#" style="color: #989898;">
                                     <button type="button" class="btn btn-light nav-menu-btn">
@@ -111,7 +111,7 @@
                                             <ellipse opacity="0.4" cx="10.146" cy="9.90749" rx="2.1968" ry="2.1968" stroke="#6D34E0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                         </svg>
                                     </button>
-                                    <p class="p-2">Settings</p>
+                                    <p class="pt-2">Settings</p>
                                 </a>
                             </div>
                             <div class="col">
@@ -122,7 +122,7 @@
                                             <path opacity="0.4" d="M11.9906 17.3811C10.8539 18.6434 9.08052 18.6583 7.93286 17.3811" stroke="#6D34E0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                         </svg>
                                     </button>
-                                    <p class="p-2">Notifications</p>
+                                    <p class="pt-2">Notifications</p>
                                 </a>
                             </div>
                             <div class="col">
@@ -135,7 +135,7 @@
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M13.2572 2.2915C13.2572 2.2915 6.85965 2.29484 6.84965 2.29484C4.54965 2.309 3.12549 3.82234 3.12549 6.13067V13.794C3.12549 16.114 4.56049 17.6332 6.88049 17.6332C6.88049 17.6332 13.2772 17.6307 13.288 17.6307C15.588 17.6165 17.013 16.1023 17.013 13.794V6.13067C17.013 3.81067 15.5772 2.2915 13.2572 2.2915Z" stroke="#6D34E0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                         </svg>
                                     </button>
-                                    <p class="p-2">FAQ</p>
+                                    <p class="pt-2">FAQ</p>
                                 </a>
                             </div>
                             <div class="col">
@@ -148,7 +148,7 @@
                                             <path d="M11.818 11.5431V9.99976" stroke="#6D34E0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                         </svg>
                                     </button>
-                                    <p class="p-2">Password</p>
+                                    <p class="pt-2">Password</p>
                                 </a>
                             </div>
                             <div class="col">
@@ -160,7 +160,7 @@
                                             <path d="M15.7344 7.58862L18.1744 10.0178L15.7344 12.4478" stroke="#6D34E0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                         </svg>
                                     </button>
-                                    <p class="p-2">Logout</p>
+                                    <p class="pt-2">Logout</p>
                                 </a>
                             </div>
                         </div>
@@ -168,7 +168,7 @@
                 </div>
             </div>
 
-            <div class="d-flex p-2 flex-column p-2 pt-5 ps-4" style="overflow-y: auto; max-height: 100vh;">
+            <div class="d-flex p-2 flex-column p-2 pt-5 ps-4 children-details-list">
                 <div class="detail-heading">
                     <p>Your Children Details</p>
                 </div>
@@ -179,7 +179,7 @@
                             <div class="row align-items-center justify-content-start">
                                 <div class="col-md-3 ps-0">
                                     <div class="img-overlay-wrap">
-                                        <img src="/images/child-1.png" class="rounded-circle children-detail-pic" width="100px" height="100px"></img>
+                                        <img src="/images/child-1.png" class="children-detail-pic rounded-circle"></img>
                                         <a href="#">
                                             <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M15.0026 2.5C21.9001 2.5 27.5001 8.1 27.5001 14.9975C27.5001 21.8938 21.9001 27.4938 15.0026 27.4938C8.10635 27.4938 2.50635 21.8938 2.50635 14.9975C2.50635 8.1 8.10635 2.5 15.0026 2.5ZM15.0026 4.375C9.1401 4.375 4.38135 9.135 4.38135 14.9975C4.38135 20.86 9.1401 25.6188 15.0026 25.6188C20.8651 25.6188 25.6251 20.86 25.6251 14.9975C25.6251 9.135 20.8651 4.375 15.0026 4.375ZM14.0688 14.0625H9.69385C9.17635 14.0625 8.75635 14.4825 8.75635 15C8.75635 15.5175 9.17635 15.9375 9.69385 15.9375H14.0688V20.3125C14.0688 20.83 14.4888 21.25 15.0063 21.25C15.5238 21.25 15.9438 20.83 15.9438 20.3125V15.9375H20.3188C20.8363 15.9375 21.2563 15.5175 21.2563 15C21.2563 14.4825 20.8363 14.0625 20.3188 14.0625H15.9438V9.6875C15.9438 9.17 15.5238 8.75 15.0063 8.75C14.4888 8.75 14.0688 9.17 14.0688 9.6875V14.0625Z" fill="#A9A9A9"/>
@@ -205,7 +205,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="row align-items-center justify-content-end">
-                                <div class="p-1 col-4 align-self-center">
+                                <div class="p-1 col-4">
                                     <a href="#">
                                         <button type="button" class="btn btn-send">
                                             <div style="margin-right: 10px">
@@ -219,7 +219,7 @@
                                 </div>
                                 <div class="p-1 col-6">
                                     <a href="#">
-                                        <button type="button" class="btn btn-take-test" style="width: 100%">
+                                        <button type="button" class="btn btn-take-test">
                                                 <b>Take Full Assesment Test</b>
                                         </button>
                                     </a>
@@ -242,8 +242,8 @@
                                     <div class="row">
                                         <div class="col-md-4">Bahasa Indonesia</div>
                                         <div class="col">0/10</div>
-                                        <div class="col" style="color: #e1e1e1">Click to Take Test</div>
-                                        <div class="col text-end pe-4" style="color: #ff0000">Not Done Yet</div>
+                                        <div class="col-md-3" style="color: #e1e1e1">Click to Take Test</div>
+                                        <div class="col-md-3 text-end pe-4" style="color: #ff0000">Not Done Yet</div>
                                     </div>
                                 </a>
                             </div>
@@ -254,8 +254,8 @@
                                     <div class="row">
                                         <div class="col-md-4">Basic English</div>
                                         <div class="col">0/20</div>
-                                        <div class="col" style="color: #e1e1e1">Click to Take Test</div>
-                                        <div class="col text-end pe-4" style="color: #ff0000">Not Done Yet</div>
+                                        <div class="col-md-3" style="color: #e1e1e1">Click to Take Test</div>
+                                        <div class="col-md-3 text-end pe-4" style="color: #ff0000">Not Done Yet</div>
                                     </div>
                                 </a>
                             </div> 
@@ -290,8 +290,8 @@
                                     <div class="row">
                                         <div class="col-md-4">Science</div>
                                         <div class="col">0/10</div>
-                                        <div class="col" style="color: #e1e1e1">Click to Take Test</div>
-                                        <div class="col text-end pe-4" style="color: #ff0000">Not Done Yet</div>
+                                        <div class="col-md-3" style="color: #e1e1e1">Click to Take Test</div>
+                                        <div class="col-md-3 text-end pe-4" style="color: #ff0000">Not Done Yet</div>
                                     </div>
                                 </a>
                             </div> 
@@ -302,8 +302,8 @@
                                     <div class="row">
                                         <div class="col-md-4">Civic</div>
                                         <div class="col">0/10</div>
-                                        <div class="col" style="color: #e1e1e1">Click to Take Test</div>
-                                        <div class="col text-end pe-4" style="color: #ff0000">Not Done Yet</div>
+                                        <div class="col-md-3" style="color: #e1e1e1">Click to Take Test</div>
+                                        <div class="col-md-3 text-end pe-4" style="color: #ff0000">Not Done Yet</div>
                                     </div>
                                 </a>
                             </div> 
@@ -314,8 +314,8 @@
                                     <div class="row">
                                         <div class="col-md-4">Art</div>
                                         <div class="col">0/20</div>
-                                        <div class="col" style="color: #e1e1e1">Click to Take Test</div>
-                                        <div class="col text-end pe-4" style="color: #ff0000">Not Done Yet</div>
+                                        <div class="col-md-3" style="color: #e1e1e1">Click to Take Test</div>
+                                        <div class="col-md-3 text-end pe-4" style="color: #ff0000">Not Done Yet</div>
                                     </div>
                                 </a>
                             </div> 
@@ -326,8 +326,8 @@
                                     <div class="row">
                                         <div class="col-md-4">Mother Tongue Languages</div>
                                         <div class="col">0/10</div>
-                                        <div class="col" style="color: #e1e1e1">Click to Take Test</div>
-                                        <div class="col text-end pe-4" style="color: #ff0000">Not Done Yet</div>
+                                        <div class="col-md-3" style="color: #e1e1e1">Click to Take Test</div>
+                                        <div class="col-md-3 text-end pe-4" style="color: #ff0000">Not Done Yet</div>
                                     </div>
                                 </a>
                             </div> 
@@ -358,7 +358,7 @@
                         </div>
                     </div>
                 </div>
-            </div>         
+            </div>  
         </div>
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
