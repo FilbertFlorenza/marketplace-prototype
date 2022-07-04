@@ -175,9 +175,9 @@
                 <div class="p-2 mb-3 me-3 children-details-card">
                     <div class="p-2 detail-title">Children details</div>
                     <div class="p-2 row align-items-center mx-auto">
-                        <div class="col-md-4">
+                        <div class="col">
                             <div class="row align-items-center justify-content-start">
-                                <div class="col-md-3 ps-0">
+                                <div class="col ps-0" style="padding-right: 0px">
                                     <div class="img-overlay-wrap">
                                         <img src="/images/child-1.png" class="children-detail-pic rounded-circle"></img>
                                         <a href="#">
@@ -193,17 +193,17 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col offset-md-1">
                             <div class="">
                                 <span class="children-detail-subtitle">Child Level</span> <br/>
                                 <span class="children-detail-info"><b>7 - 10 Y.o</b></span>
                             </div>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col">
                             <span class="children-detail-subtitle">Birth Date</span> <br/>
                             <span class="children-detail-info"><b>22/12/08</b></span>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                             <div class="row align-items-center justify-content-end">
                                 <div class="p-1 col-4">
                                     <a href="#">
