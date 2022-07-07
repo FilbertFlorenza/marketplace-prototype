@@ -8,7 +8,7 @@ body {
     background-color: #F5F7FF;
     max-width: 220px;
     min-width: 220px;
-    min-height: 100vh;
+    height: 100vh;
     overflow: hidden;
     flex-wrap: nowrap;
 }
@@ -144,7 +144,7 @@ a:hover {
     object-fit: cover;
     height: 100px;
     width: 100px;
-    max-width: 100%;
+    /* max-width: 100%; */
 }
 
 .children-fullname {
@@ -257,13 +257,14 @@ a:hover {
     padding: 0;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: space-evenly;
 }
 
 .column {
     display: flex;
     flex-direction: column;
     margin: 5px;
-    width: 49%;
+    width: 48%;
 }
 
 .test-result-detail {

@@ -1,11 +1,12 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="">
-        <title>Test</title>
+        <title>Smart Apes</title>
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
@@ -14,13 +15,15 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
 
+        <script src="https://kit.fontawesome.com/33e5cd664a.js" crossorigin="anonymous"></script>
+
         <link rel="stylesheet" type="text/css" href="/css/style.css">
     </head>
 
     <body>
         <div class="d-flex">
-            <div class="d-flex p-2 pt-0 navbar flex-md-column align-items-start justify-content-center">
-                <div class="ps-2 pb-3 pt-2">
+            <div class="d-flex p-2 pt-0 navbar flex-md-column align-items-start justify-content-start">
+                <div class="ps-2 pb-3 pt-4">
                     <img src="/images/parent.png" class="rounded-circle" width="50px" height="50px">
                 </div>
                 <div class="ps-2">
@@ -218,7 +221,7 @@
                                     </a>
                                 </div>
                                 <div class="p-1 col-6">
-                                    <a href="#">
+                                    <a href="<?= base_url('test'); ?>">
                                         <button type="button" class="btn btn-take-test">
                                                 <b>Take Full Assesment Test</b>
                                         </button>
@@ -236,7 +239,7 @@
                     </div>
                     <div class="p-2 detail-title">Assesment Test Result</div>
                     <div class="main-group">
-                        <div class="column">
+                        <div class="column col-sm-12">
                             <div class="test-result-card p-2">
                                 <a href="#">
                                     <div class="row">
@@ -248,7 +251,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="column">
+                        <div class="column col-sm-12">
                             <div class="test-result-card p-2">
                                 <a href="#">
                                     <div class="row">
@@ -260,7 +263,7 @@
                                 </a>
                             </div> 
                         </div>
-                        <div class="column">
+                        <div class="column col-sm-12">
                             <div class="test-result-card p-2">
                                 <a data-bs-toggle="collapse" href="#math-test-result" role="button" aria-expanded="false" aria-controls="math-test-result">
                                     <div class="row">
@@ -284,7 +287,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="column">
+                        <div class="column col-sm-12">
                             <div class="test-result-card p-2">
                                 <a href="#">
                                     <div class="row">
@@ -296,7 +299,7 @@
                                 </a>
                             </div> 
                         </div>
-                        <div class="column">
+                        <div class="column col-sm-12">
                             <div class="test-result-card p-2">
                                 <a href="#">
                                     <div class="row">
@@ -308,7 +311,7 @@
                                 </a>
                             </div> 
                         </div>
-                        <div class="column">
+                        <div class="column col-sm-12">
                             <div class="test-result-card p-2">
                                 <a href="#">
                                     <div class="row">
@@ -320,7 +323,7 @@
                                 </a>
                             </div> 
                         </div>
-                        <div class="column">
+                        <div class="column col-sm-12">
                             <div class="test-result-card p-2">
                                 <a href="#">
                                     <div class="row">
@@ -332,7 +335,7 @@
                                 </a>
                             </div> 
                         </div>
-                        <div class="column">
+                        <div class="column col-sm-12">
                             <div class="test-result-card p-2">
                                 <a data-bs-toggle="collapse" href="#general-knowledge-test-result" role="button" aria-expanded="false" aria-controls="general-knowledge-test-result">
                                     <div class="row">
