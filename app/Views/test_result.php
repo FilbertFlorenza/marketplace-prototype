@@ -193,7 +193,7 @@
                         <div class="vr"></div>
                         <!-- Recommendation Program -->
                         <div class="recommendation-section col-sm-12">
-                            <h6 class="recommendation-title">Recommendation Program</h6>
+                            <h6 class="recommendation-title">Recommended Program</h6>
                             <div class="recommendation-program mt-3 p-2">
                                 <table class="table table-hover recommendation-table">
                                     <thead class="table-header border-bottom">
@@ -223,7 +223,7 @@
                         </div>
                         <!-- Recommendation Product -->
                         <div class="recommendation-section col-sm-12">
-                            <h6 class="recommendation-title">Recommendation Product</h6>
+                            <h6 class="recommendation-title">Recommended Product</h6>
                             <div class="recommendation-product mt-3 p-4">
                             <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
                                 <div class="carousel-indicators">
@@ -297,7 +297,7 @@
                         <div class="vr"></div>
                         <!-- Recommendation Program -->
                         <div class="recommendation-section col-sm-12">
-                            <h6 class="recommendation-title">Recommendation Program</h6>
+                            <h6 class="recommendation-title">Recommended Program</h6>
                             <div class="recommendation-program mt-3 p-2">
                                 <table class="table table-hover recommendation-table">
                                     <thead class="table-header border-bottom">
@@ -327,7 +327,7 @@
                         </div>
                         <!-- Recommendation Product -->
                         <div class="recommendation-section col-sm-12">
-                            <h6 class="recommendation-title">Recommendation Product</h6>
+                            <h6 class="recommendation-title">Recommended Product</h6>
                             <div class="recommendation-product mt-3 p-4">
                             <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
                                 <div class="carousel-indicators">
@@ -401,7 +401,7 @@
                         <div class="vr"></div>
                         <!-- Recommendation Program -->
                         <div class="recommendation-section col-sm-12">
-                            <h6 class="recommendation-title">Recommendation Program</h6>
+                            <h6 class="recommendation-title">Recommended Program</h6>
                             <div class="recommendation-program mt-3 p-2">
                                 <table class="table table-hover recommendation-table">
                                     <thead class="table-header border-bottom">
@@ -431,7 +431,7 @@
                         </div>
                         <!-- Recommendation Product -->
                         <div class="recommendation-section col-sm-12">
-                            <h6 class="recommendation-title">Recommendation Product</h6>
+                            <h6 class="recommendation-title">Recommended Product</h6>
                             <div class="recommendation-product mt-3 p-4">
                             <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
                                 <div class="carousel-indicators">
@@ -505,7 +505,7 @@
                         <div class="vr"></div>
                         <!-- Recommendation Program -->
                         <div class="recommendation-section col-sm-12">
-                            <h6 class="recommendation-title">Recommendation Program</h6>
+                            <h6 class="recommendation-title">Recommended Program</h6>
                             <div class="recommendation-program mt-3 p-2">
                                 <table class="table table-hover recommendation-table">
                                     <thead class="table-header border-bottom">
@@ -535,7 +535,7 @@
                         </div>
                         <!-- Recommendation Product -->
                         <div class="recommendation-section col-sm-12">
-                            <h6 class="recommendation-title">Recommendation Product</h6>
+                            <h6 class="recommendation-title">Recommended Product</h6>
                             <div class="recommendation-product mt-3 p-4">
                             <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
                                 <div class="carousel-indicators">
@@ -609,7 +609,7 @@
                         <div class="vr"></div>
                         <!-- Recommendation Program -->
                         <div class="recommendation-section col-sm-12">
-                            <h6 class="recommendation-title">Recommendation Program</h6>
+                            <h6 class="recommendation-title">Recommended Program</h6>
                             <div class="recommendation-program mt-3 p-2">
                                 <table class="table table-hover recommendation-table">
                                     <thead class="table-header border-bottom">
@@ -639,7 +639,7 @@
                         </div>
                         <!-- Recommendation Product -->
                         <div class="recommendation-section col-sm-12">
-                            <h6 class="recommendation-title">Recommendation Product</h6>
+                            <h6 class="recommendation-title">Recommended Product</h6>
                             <div class="recommendation-product mt-3 p-4">
                             <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
                                 <div class="carousel-indicators">
