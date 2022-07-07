@@ -174,8 +174,48 @@
             </div>
 
             <div class="row mx-1">
+                <div class="col-12 total row justify-content-start">
+                   <div class="col-lg-1 align-self-center">
+                       <img src="<?= base_url('assets/img/total-image.svg');?>" alt=""> 
+                   </div>
+                   <div class="col-lg-2 total-text ms-2">
+                        <h6>Total Score</h6>
+                        <hr>
+                        <h1 class="total-score"><?php echo round((count($correct_submitted_grammar)+count($correct_submitted_vocabulary)+count($correct_submitted_editing)+count($correct_submitted_synthesis)+count($correct_submitted_grammar_cloze))/30*100);?><span class="percentage">%</span></h1>
+                   </div>
+                   <div class="col-lg-8 total-text">
+                        <h6>Result of each topics</h6>
+                        <hr>
+                        <div class="total-topic">
+                            <div>
+                                <h6 class="total-topic-title">Grammar</h6>
+                                <h1 class="total-score"><?php echo round(count($correct_submitted_grammar)/9*100)?><span class="percentage">%</span></h1>
+                            </div>
+                            <div>
+                                <h6 class="total-topic-title">Vocabulary</h6>
+                                <h1 class="total-score"><?php echo round(count($correct_submitted_vocabulary)/8*100)?><span class="percentage">%</span></h1>
+                            </div>
+                            <div>
+                                <h6 class="total-topic-title">Editing</h6>
+                                <h1 class="total-score"><?php echo round(count($correct_submitted_editing)/5*100)?><span class="percentage">%</span></h1>
+                            </div>
+                            <div>
+                                <h6 class="total-topic-title">Synthesis and Transformation</h6>
+                                <h1 class="total-score"><?php echo round(count($correct_submitted_synthesis)/3*100)?><span class="percentage">%</span></h1>
+                            </div>
+                            <div>
+                                <h6 class="total-topic-title">Grammar Cloze</h6>
+                                <h1 class="total-score"><?php echo round(count($correct_submitted_grammar_cloze)/5*100)?><span class="percentage">%</span></h1>
+                            </div>
+
+                        </div>
+                   </div>
+                </div>
+            </div>
+
+            <div class="row mx-1">
                 <div class="col-12 topic">
-                    <div class="col-12 ">
+                    <div class="col-12">
                         <h5 class="topic-title">Grammar</h5>
                     </div>
                     <hr class="line">
@@ -185,7 +225,7 @@
                             <h6 class="score-title">Your Overall Score</h6>
                             <div class="score-section">
                                 <div class="progress-bar-circle" id="grammar-progress-bar"></div>
-                                <h2 class="score"><?php echo round(count($correct_submitted_grammar)/9*100)?></h2>
+                                <h2 class="score"><?php echo round(count($correct_submitted_grammar)/9*100)?><span class="percentage">%</span></h2>
                                 <p class="correct-answer">Correct Answer</p>
                                 <p class="correct-answer"><span class="blue"><?php echo count($correct_submitted_grammar) ?></span> / 9</p>
                             </div>
@@ -289,7 +329,7 @@
                             <h6 class="score-title">Your Overall Score</h6>
                             <div class="score-section">
                                 <div class="progress-bar-circle" id="vocabulary-progress-bar"></div>
-                                <h2 class="score"><?php echo round(count($correct_submitted_vocabulary)/8*100)?></h2>
+                                <h2 class="score"><?php echo round(count($correct_submitted_vocabulary)/8*100)?><span class="percentage">%</span></h2>
                                 <p class="correct-answer">Correct Answer</p>
                                 <p class="correct-answer"><span class="blue"><?php echo count($correct_submitted_vocabulary) ?></span> / 8</p>
                             </div>
@@ -393,7 +433,7 @@
                             <h6 class="score-title">Your Overall Score</h6>
                             <div class="score-section">
                                 <div class="progress-bar-circle" id="editing-progress-bar"></div>
-                                <h2 class="score"><?php echo round(count($correct_submitted_editing)/5*100)?></h2>
+                                <h2 class="score"><?php echo round(count($correct_submitted_editing)/5*100)?><span class="percentage">%</span></h2>
                                 <p class="correct-answer">Correct Answer</p>
                                 <p class="correct-answer"><span class="blue"><?php echo count($correct_submitted_editing) ?></span> / 5</p>
                             </div>
@@ -497,7 +537,7 @@
                             <h6 class="score-title">Your Overall Score</h6>
                             <div class="score-section">
                                 <div class="progress-bar-circle" id="synthesis-progress-bar"></div>
-                                <h2 class="score"><?php echo round(count($correct_submitted_synthesis)/3*100)?></h2>
+                                <h2 class="score"><?php echo round(count($correct_submitted_synthesis)/3*100)?><span class="percentage">%</span></h2>
                                 <p class="correct-answer">Correct Answer</p>
                                 <p class="correct-answer"><span class="blue"><?php echo count($correct_submitted_synthesis) ?></span> / 3</p>
                             </div>
@@ -601,7 +641,7 @@
                             <h6 class="score-title">Your Overall Score</h6>
                             <div class="score-section">
                                 <div class="progress-bar-circle" id="grammar-cloze-progress-bar"></div>
-                                <h2 class="score"><?php echo round(count($correct_submitted_grammar_cloze)/5*100)?></h2>
+                                <h2 class="score"><?php echo round(count($correct_submitted_grammar_cloze)/5*100)?><span class="percentage">%</span></h2>
                                 <p class="correct-answer">Correct Answer</p>
                                 <p class="correct-answer"><span class="blue"><?php echo count($correct_submitted_grammar_cloze) ?></span> / 5</p>
                             </div>

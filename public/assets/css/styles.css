@@ -104,6 +104,38 @@ body {
     border:0.5px solid #E6E6E6;
 }
 
+.total{
+    background-color:#4EB7B5;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    background-image: url('../img/total-summary.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.total-text{
+    color: #FFFFFF;
+}
+
+.total-score{
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.total-topic{
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-topic-title{
+    font-size: 12px;
+}
+
+.percentage{
+    font-size: 0.4em;
+}
+
 .topic{
     background-color: #ffffff;
     border-radius: 5px;
