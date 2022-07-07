@@ -76,7 +76,7 @@
                             </div>
                             <div class="col">
                                 <a href="#" style="color: #989898;">
-                                    <button type="button" class="btn btn-light nav-menu-btn">
+                                    <button type="button" class="btn btn-light nav-menu-btn" id="init">
                                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path opacity="0.4" d="M14.9065 9.08044C16.069 8.91711 16.964 7.92044 16.9665 6.71294C16.9665 5.52294 16.099 4.53628 14.9615 4.34961" stroke="#6D34E0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path d="M16.4404 11.8752C17.5663 12.0436 18.3521 12.4377 18.3521 13.2502C18.3521 13.8094 17.9821 14.1727 17.3838 14.4011" stroke="#6D34E0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -223,7 +223,7 @@
                                 <div class="p-1 col-6">
                                     <a href="<?= base_url('test'); ?>">
                                         <button type="button" class="btn btn-take-test">
-                                                <b>Take Full Assesment Test</b>
+                                                <b>Take Assesment Test</b>
                                         </button>
                                     </a>
                                 </div>
@@ -275,12 +275,12 @@
                                 <div class="collapse" id="math-test-result">
                                     <hr>
                                     <div class="row test-result-detail">
-                                        <div class="col-md-3">Result</div>
+                                        <div class="col-md-4">Result</div>
                                         <div class="col">Corrected Answer</div>
                                         <div class="col text-end pe-4">Status</div>
                                     </div>
                                     <div class="row test-result-detail">
-                                        <div class="col-md-3" style="color: #c5c5c5">10/10</div>
+                                        <div class="col-md-4" style="color: #c5c5c5">10/10</div>
                                         <div class="col" style="color: #00FF57">8/10</div>
                                         <div class="col text-end pe-4" style="color: #00FF57">Passed</div>
                                     </div>
@@ -347,12 +347,12 @@
                                 <div class="collapse" id="general-knowledge-test-result">
                                     <hr>
                                     <div class="row test-result-detail">
-                                        <div class="col-md-3">Result</div>
+                                        <div class="col-md-4">Result</div>
                                         <div class="col">Corrected Answer</div>
                                         <div class="col text-end pe-4">Status</div>
                                     </div>
                                     <div class="row test-result-detail">
-                                        <div class="col-md-3" style="color: #c5c5c5">10/10</div>
+                                        <div class="col-md-4" style="color: #c5c5c5">10/10</div>
                                         <div class="col" style="color: #00FF57">8/10</div>
                                         <div class="col text-end pe-4" style="color: #00FF57">Passed</div>
                                     </div>
@@ -367,5 +367,9 @@
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
     </body>
+
+    <script>
+        document.getElementById("init").focus();
+    </script>
 
 </html>
