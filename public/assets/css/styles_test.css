@@ -1,0 +1,84 @@
+body {
+    font-family: 'Mulish';
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #F5F7FF;
+    width: 220px;
+    height: 813px;
+    float: left;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0;
+    flex-wrap: nowrap;
+    overflow-y: auto;
+    overflow: hidden;
+}
+
+.parent-profile-pic {
+    margin-top: 28px;
+    margin-left: 25px;
+}
+
+.welcome-text {
+    color: #757575;
+    margin-left: 25px;
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.parent-name {
+    color: #333333;
+    margin-left: 25px;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 19px;
+}
+
+.category-text {
+    font-weight: 700;
+    color: #333333;
+    font-size: 12px;
+    margin-left: 25px;
+}
+
+.menu-grid-master {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    padding: 25px 0px;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 47px;
+    row-gap: 20px;
+}
+
+.menu-grid svg {
+    display: inline-block;
+    vertical-align: center;
+}
+
+.nav-text {
+    color: #989898;
+    font-size: 10px;
+    padding-top: 10px;
+    font-weight: 700;
+}
+
+.nav-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #ECEFF7;
+    border: 0;
+    text-align: center;
+    padding: 0;
+}
+

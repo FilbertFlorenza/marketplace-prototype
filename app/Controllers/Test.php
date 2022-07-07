@@ -79,6 +79,6 @@ class Test extends BaseController
         $data['correct_submitted_synthesis'] = $correct_submitted_synthesis;
         $data['correct_submitted_grammar_cloze'] = $correct_submitted_grammar_cloze;
 
-        return view('test_result',$data);
+        return view('test_result', $data);
     }
 }

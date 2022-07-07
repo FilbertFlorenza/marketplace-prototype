@@ -1,26 +1,26 @@
-body{
+body {
     background-color: #F9FAFC;
     font-family: 'Mulish';
 }
 
 /* Full Assessment Test Page */
-.header{
+.header {
     color:#ffffff;
     background-color: #6D34E0;
     border-radius: 5px;
     padding: 10px;
-    margin: 20px 0px;
+    /* margin: 25px 0px; */
     display: flex;
     font-weight: 700;
 }
 
-.question-title{
+.question-title {
     color:#333333;
     background-color: #F7F3FF;
     border-radius: 5px;
     padding: 10px;
-    margin: 20px 0px;
     font-weight: 700;
+    /* margin: 25px 0px; */
 }
 
 .editing-question{
@@ -28,7 +28,7 @@ body{
     background-color: #F7F3FF;
     border-radius: 5px;
     padding: 10px;
-    margin: 20px 0px;
+    /* margin: 20px 0px; */
     text-align: justify;
 }
 
@@ -37,7 +37,7 @@ body{
     background-color: #F7F3FF;
     border-radius: 5px;
     padding: 10px;
-    margin: 20px 0px;
+    margin: 10px 0px;
     font-weight: 700;
 }
 
@@ -96,7 +96,9 @@ body{
 /* Result Summary Page */
 
 .summary-section{
-    margin-left: 230px;
+    /* margin-left: 230px; */
+    overflow-y: auto;
+    max-height: 100vh;
 }
 .line{
     border:0.5px solid #E6E6E6;
@@ -106,7 +108,7 @@ body{
     background-color: #ffffff;
     border-radius: 5px;
     padding: 20px;
-    margin: 20px 0px;
+    margin: 20px 0;
 }
 
 .topic-title{

@@ -9,13 +9,15 @@ body {
     max-width: 220px;
     min-width: 220px;
     height: 100vh;
-    overflow: auto;
+    overflow: hidden;
+    flex-wrap: nowrap;
 }
 
 .welcome-text {
     color: #757575;
     font-size: 14px;
     line-height: 0px;
+    font-weight: 400;
 }
 
 .parent-name {
@@ -34,7 +36,38 @@ body {
     box-shadow: none;
 }
 
+.nav-menu-btn {
+    width: 45px;
+    height: 45px;
+}
+
+a:focus .btn-light {
+    background-color: #6D34E0;
+    outline: none;
+    box-shadow: none;
+}
+
+a:focus svg path {
+    stroke: white;
+}
+
+a:focus svg ellipse {
+    stroke: white;
+}
+
+a:hover p {
+    color: #989898;
+}
+
+a:focus p {
+    color: #333333;
+}
+
 .btn-light:focus svg path {
+    stroke: white;
+}
+
+.btn-light:focus svg ellipse {
     stroke: white;
 }
 
@@ -48,9 +81,11 @@ body {
 
 .btn-light:active {
     transform: translateY(0.2em);
-    box-shadow: none;
-    outline: none;
     transition: 0.25s;
+}
+
+.btn-light:active svg path {
+    stroke: #6D34E0;
 }
 
 .btn-light:hover svg path {
@@ -58,26 +93,6 @@ body {
 }
 
 .btn-light:focus ~ p {
-    font-weight: bold;
-    color: #333333;
-}
-
-a:focus .btn-light {
-    background-color: #6D34E0;
-    outline: none;
-    box-shadow: none;
-}
-
-a:focus svg path {
-    stroke: white;
-}
-
-a:hover p {
-    color: #989898;
-}
-
-a:focus, a:active p {
-    font-weight: bold;
     color: #333333;
 }
 
@@ -104,6 +119,11 @@ a:hover {
     color: #6D34E0;
 }
 
+.children-details-list {
+    overflow-y: auto;
+    max-height: 100vh;
+}
+
 .detail-heading {
     color: #333333;
     font-size: 15px;
@@ -122,6 +142,9 @@ a:hover {
 
 .children-detail-pic {
     object-fit: cover;
+    height: 100px;
+    width: 100px;
+    /* max-width: 100%; */
 }
 
 .children-fullname {
@@ -164,7 +187,7 @@ a:hover {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    font-size: 12px;
+    font-size: 8px;
     font-weight: 700;
 }
 
@@ -182,7 +205,7 @@ a:hover {
 .btn-view-child-profile, .btn-view-child-profile:focus {
     background-color: #FFB84C;
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 8px;
     color: #fff;
     font-weight: 700;
 }
@@ -202,10 +225,9 @@ a:hover {
     background-color: #F7F3FF;
     border: 2px solid #6D34E0;
     border-radius: 5px;
-    white-space: nowrap;
-    text-align: center;
-    font-size: 12px;
+    font-size: 8px;
     color: #6D34E0;
+    width: 100%;
 }
 
 .btn-take-test:hover {
@@ -235,13 +257,14 @@ a:hover {
     padding: 0;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: space-evenly;
 }
 
 .column {
     display: flex;
     flex-direction: column;
     margin: 5px;
-    width: 49%;
+    width: 48%;
 }
 
 .test-result-detail {
@@ -253,3 +276,5 @@ hr {
     border: none;
     height: 2px;
 }
+
+/* this is dekstop first */
