@@ -73,7 +73,7 @@
                             </div>
                             <div class="col">
                                 <a href="#" style="color: #989898;">
-                                    <button type="button" class="btn btn-light nav-menu-btn">
+                                    <button type="button" class="btn btn-light nav-menu-btn" id="init">
                                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path opacity="0.4" d="M14.9065 9.08044C16.069 8.91711 16.964 7.92044 16.9665 6.71294C16.9665 5.52294 16.099 4.53628 14.9615 4.34961" stroke="#6D34E0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path d="M16.4404 11.8752C17.5663 12.0436 18.3521 12.4377 18.3521 13.2502C18.3521 13.8094 17.9821 14.1727 17.3838 14.4011" stroke="#6D34E0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -209,13 +209,13 @@
                                         </tr>
                                         <tr>
                                             <td><img class="program-image"src="<?= base_url('assets/img/english-book2.jpg');?>" alt=""><a href="">How to Learn English Fast</a></td>
-                                            <td class="align-middle"><span class="discounted">$15</span>  $12.5</td>
-                                            <td class="align-middle"><i class="fa-solid fa-star star"></i> 4.8</td>
+                                            <td class="align-middle"><span class="discounted">$20</span>  $16.5</td>
+                                            <td class="align-middle"><i class="fa-solid fa-star star"></i> 5.0</td>
                                         </tr>
                                         <tr>
                                             <td><img class="program-image"src="<?= base_url('assets/img/english-book3.jpg');?>" alt=""><a href="">No Worries! English is Fun!</a></td>
-                                            <td class="align-middle"><span class="discounted">$15</span>  $12.5</td>
-                                            <td class="align-middle"><i class="fa-solid fa-star star"></i> 4.8</td>
+                                            <td class="align-middle"><span class="discounted">$12</span>  $10</td>
+                                            <td class="align-middle"><i class="fa-solid fa-star star"></i> 4.9</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -234,19 +234,19 @@
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
                                         <div class="product">
-                                            <img class="product-image me-1" src="<?= base_url('assets/img/grammar-book.jpg');?>" alt="">
+                                            <img class="product-image me-1" src="<?= base_url('assets/img/grammar-book-1.jpeg');?>" alt="">
                                             <div class="product-details">
-                                                <h5 class="product-name">English Grammar in Use 1</h5>
-                                                <h6 class="product-author">Raymond Murphy</h6>
-                                                <p><span class="discounted">$15</span>  $12.5</p>
-                                                <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.8 <span class="rating-amount">(4k rating)</span></p>
+                                                <h5 class="product-name">The English Grammar Book</h5>
+                                                <h6 class="product-author">Lauralee Moss</h6>
+                                                <p><span class="discounted">$17</span>  $14</p>
+                                                <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.6 <span class="rating-amount">(511 rating)</span></p>
                                                 <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
                                             </div>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
                                         <div class="product">
-                                            <img class="product-image me-1" src="<?= base_url('assets/img/grammar-book.jpg');?>" alt="">
+                                            <img class="product-image me-1" src="<?= base_url('assets/img/grammar-book-3.jpg');?>" alt="">
                                             <div class="product-details">
                                                 <h5 class="product-name">English Grammar in Use 2</h5>
                                                 <h6 class="product-author">Raymond Murphy</h6>
@@ -258,11 +258,11 @@
                                     </div>
                                     <div class="carousel-item">
                                         <div class="product">
-                                            <img class="product-image me-1" src="<?= base_url('assets/img/grammar-book.jpg');?>" alt="">
+                                            <img class="product-image me-1" src="<?= base_url('assets/img/grammar-book-2.jpeg');?>" alt="">
                                             <div class="product-details">
-                                                <h5 class="product-name">English Grammar in Use 3</h5>
-                                                <h6 class="product-author">Raymond Murphy</h6>
-                                                <p><span class="discounted">$15</span>  $12.5</p>
+                                                <h5 class="product-name">The Only Grammar Book You'll Ever Need</h5>
+                                                <h6 class="product-author">Susan Thurman</h6>
+                                                <p><span class="discounted">$10</span>  $8.5</p>
                                                 <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.8 <span class="rating-amount">(4k rating)</span></p>
                                                 <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
                                             </div>
@@ -307,19 +307,19 @@
                                     </thead>
                                     <tbody class="table-body">
                                         <tr>
-                                            <td><img class="program-image"src="<?= base_url('assets/img/english-book1.jpg');?>" alt=""><a href="">Learn English with Lucy 4.0</a></td>
-                                            <td class="align-middle"><span class="discounted">$15</span>  $12.5</td>
-                                            <td class="align-middle"><i class="fa-solid fa-star star"></i> 4.8</td>
+                                            <td><img class="program-image"src="<?= base_url('assets/img/english-book1.jpg');?>" alt=""><a href="">Complete the Sentence!</a></td>
+                                            <td class="align-middle"><span class="discounted">$12</span>  $10</td>
+                                            <td class="align-middle"><i class="fa-solid fa-star star"></i> 4.6</td>
                                         </tr>
                                         <tr>
-                                            <td><img class="program-image"src="<?= base_url('assets/img/english-book2.jpg');?>" alt=""><a href="">How to Learn English Fast</a></td>
-                                            <td class="align-middle"><span class="discounted">$15</span>  $12.5</td>
-                                            <td class="align-middle"><i class="fa-solid fa-star star"></i> 4.8</td>
+                                            <td><img class="program-image"src="<?= base_url('assets/img/english-book2.jpg');?>" alt=""><a href="">English for Beginners</a></td>
+                                            <td class="align-middle"><span class="discounted">$15</span>  $13.5</td>
+                                            <td class="align-middle"><i class="fa-solid fa-star star"></i> 4.9</td>
                                         </tr>
                                         <tr>
-                                            <td><img class="program-image"src="<?= base_url('assets/img/english-book3.jpg');?>" alt=""><a href="">No Worries! English is Fun!</a></td>
-                                            <td class="align-middle"><span class="discounted">$15</span>  $12.5</td>
-                                            <td class="align-middle"><i class="fa-solid fa-star star"></i> 4.8</td>
+                                            <td><img class="program-image"src="<?= base_url('assets/img/english-book3.jpg');?>" alt=""><a href="">Building Your English Brain</a></td>
+                                            <td class="align-middle"><span class="discounted">$25</span>  $20</td>
+                                            <td class="align-middle"><i class="fa-solid fa-star star"></i> 5</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -338,36 +338,36 @@
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
                                         <div class="product">
-                                            <img class="product-image me-1" src="<?= base_url('assets/img/grammar-book.jpg');?>" alt="">
+                                            <img class="product-image me-1" src="<?= base_url('assets/img/vocabulary-book-1.jpeg');?>" alt="">
                                             <div class="product-details">
-                                                <h5 class="product-name">English Grammar in Use 1</h5>
-                                                <h6 class="product-author">Raymond Murphy</h6>
-                                                <p><span class="discounted">$15</span>  $12.5</p>
-                                                <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.8 <span class="rating-amount">(4k rating)</span></p>
+                                                <h5 class="product-name">Merriam-Webster's Vocabulary Builder</h5>
+                                                <h6 class="product-author">Merriam Webster</h6>
+                                                <p><span class="discounted">$7</span>  $6</p>
+                                                <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.7 <span class="rating-amount">(2k rating)</span></p>
                                                 <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
                                             </div>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
                                         <div class="product">
-                                            <img class="product-image me-1" src="<?= base_url('assets/img/grammar-book.jpg');?>" alt="">
+                                            <img class="product-image me-1" src="<?= base_url('assets/img/vocabulary-book-2.jpeg');?>" alt="">
                                             <div class="product-details">
-                                                <h5 class="product-name">English Grammar in Use 2</h5>
-                                                <h6 class="product-author">Raymond Murphy</h6>
-                                                <p><span class="discounted">$15</span>  $12.5</p>
-                                                <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.8 <span class="rating-amount">(4k rating)</span></p>
+                                                <h5 class="product-name">McGraw-Hill Education Vocabulary</h5>
+                                                <h6 class="product-author">Gary Robert Muschla</h6>
+                                                <p><span class="discounted">$14</span>  $12.6</p>
+                                                <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.7 <span class="rating-amount">(4k rating)</span></p>
                                                 <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
                                             </div>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
                                         <div class="product">
-                                            <img class="product-image me-1" src="<?= base_url('assets/img/grammar-book.jpg');?>" alt="">
+                                            <img class="product-image me-1" src="<?= base_url('assets/img/vocabulary-book-3.jpeg');?>" alt="">
                                             <div class="product-details">
-                                                <h5 class="product-name">English Grammar in Use 3</h5>
-                                                <h6 class="product-author">Raymond Murphy</h6>
-                                                <p><span class="discounted">$15</span>  $12.5</p>
-                                                <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.8 <span class="rating-amount">(4k rating)</span></p>
+                                                <h5 class="product-name">The Vocabulary Builder Workbook</h5>
+                                                <h6 class="product-author">Ruthna Garnier</h6>
+                                                <p><span class="discounted">$10</span>  $8.5</p>
+                                                <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.6 <span class="rating-amount">(2k rating)</span></p>
                                                 <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
                                             </div>
                                         </div>
@@ -411,19 +411,19 @@
                                     </thead>
                                     <tbody class="table-body">
                                         <tr>
-                                            <td><img class="program-image"src="<?= base_url('assets/img/english-book1.jpg');?>" alt=""><a href="">Learn English with Lucy 4.0</a></td>
-                                            <td class="align-middle"><span class="discounted">$15</span>  $12.5</td>
+                                            <td><img class="program-image"src="<?= base_url('assets/img/english-book1.jpg');?>" alt=""><a href="">English Phrasal Verb for Beginner</a></td>
+                                            <td class="align-middle"><span class="discounted">$20</span>  $17.5</td>
                                             <td class="align-middle"><i class="fa-solid fa-star star"></i> 4.8</td>
                                         </tr>
                                         <tr>
-                                            <td><img class="program-image"src="<?= base_url('assets/img/english-book2.jpg');?>" alt=""><a href="">How to Learn English Fast</a></td>
+                                            <td><img class="program-image"src="<?= base_url('assets/img/english-book2.jpg');?>" alt=""><a href="">English Writing & Grammar for Beginner</a></td>
                                             <td class="align-middle"><span class="discounted">$15</span>  $12.5</td>
                                             <td class="align-middle"><i class="fa-solid fa-star star"></i> 4.8</td>
                                         </tr>
                                         <tr>
                                             <td><img class="program-image"src="<?= base_url('assets/img/english-book3.jpg');?>" alt=""><a href="">No Worries! English is Fun!</a></td>
-                                            <td class="align-middle"><span class="discounted">$15</span>  $12.5</td>
-                                            <td class="align-middle"><i class="fa-solid fa-star star"></i> 4.8</td>
+                                            <td class="align-middle"><span class="discounted">$30</span>  $16</td>
+                                            <td class="align-middle"><i class="fa-solid fa-star star"></i> 4.5</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -442,36 +442,36 @@
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
                                         <div class="product">
-                                            <img class="product-image me-1" src="<?= base_url('assets/img/grammar-book.jpg');?>" alt="">
+                                            <img class="product-image me-1" src="<?= base_url('assets/img/editing-book-1.jpeg');?>" alt="">
                                             <div class="product-details">
-                                                <h5 class="product-name">English Grammar in Use 1</h5>
-                                                <h6 class="product-author">Raymond Murphy</h6>
-                                                <p><span class="discounted">$15</span>  $12.5</p>
-                                                <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.8 <span class="rating-amount">(4k rating)</span></p>
+                                                <h5 class="product-name">300+ Reading Sight Words Sentence Book</h5>
+                                                <h6 class="product-author">Steven Harry</h6>
+                                                <p><span class="discounted">$10</span>  $8.5</p>
+                                                <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.8 <span class="rating-amount">(3k rating)</span></p>
                                                 <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
                                             </div>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
                                         <div class="product">
-                                            <img class="product-image me-1" src="<?= base_url('assets/img/grammar-book.jpg');?>" alt="">
+                                            <img class="product-image me-1" src="<?= base_url('assets/img/grammar-book-2.jpeg');?>" alt="">
                                             <div class="product-details">
-                                                <h5 class="product-name">English Grammar in Use 2</h5>
-                                                <h6 class="product-author">Raymond Murphy</h6>
-                                                <p><span class="discounted">$15</span>  $12.5</p>
-                                                <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.8 <span class="rating-amount">(4k rating)</span></p>
+                                                <h5 class="product-name">I CAN READ SEVERAL SHORT SENTENCES</h5>
+                                                <h6 class="product-author">Raffy Morbin</h6>
+                                                <p><span class="discounted">$12</span>  $6</p>
+                                                <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 5 <span class="rating-amount">(5k rating)</span></p>
                                                 <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
                                             </div>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
                                         <div class="product">
-                                            <img class="product-image me-1" src="<?= base_url('assets/img/grammar-book.jpg');?>" alt="">
+                                            <img class="product-image me-1" src="<?= base_url('assets/img/editing-book-3.jpeg');?>" alt="">
                                             <div class="product-details">
-                                                <h5 class="product-name">English Grammar in Use 3</h5>
-                                                <h6 class="product-author">Raymond Murphy</h6>
-                                                <p><span class="discounted">$15</span>  $12.5</p>
-                                                <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.8 <span class="rating-amount">(4k rating)</span></p>
+                                                <h5 class="product-name">The English Sentence</h5>
+                                                <h6 class="product-author">Lucille J. K</h6>
+                                                <p><span class="discounted">$20</span>  $15</p>
+                                                <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.6 <span class="rating-amount">(542 rating)</span></p>
                                                 <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
                                             </div>
                                         </div>
@@ -546,36 +546,36 @@
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
                                         <div class="product">
-                                            <img class="product-image me-1" src="<?= base_url('assets/img/grammar-book.jpg');?>" alt="">
+                                            <img class="product-image me-1" src="<?= base_url('assets/img/vocabulary-book-3.jpeg');?>" alt="">
                                             <div class="product-details">
-                                                <h5 class="product-name">English Grammar in Use 1</h5>
-                                                <h6 class="product-author">Raymond Murphy</h6>
-                                                <p><span class="discounted">$15</span>  $12.5</p>
-                                                <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.8 <span class="rating-amount">(4k rating)</span></p>
+                                                <h5 class="product-name">The Vocabulary Builder Workbook</h5>
+                                                <h6 class="product-author">Ruthna Garnier</h6>
+                                                <p><span class="discounted">$10</span>  $8.5</p>
+                                                <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.6 <span class="rating-amount">(2k rating)</span></p>
                                                 <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
                                             </div>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
                                         <div class="product">
-                                            <img class="product-image me-1" src="<?= base_url('assets/img/grammar-book.jpg');?>" alt="">
+                                            <img class="product-image me-1" src="<?= base_url('assets/img/editing-book-3.jpeg');?>" alt="">
                                             <div class="product-details">
-                                                <h5 class="product-name">English Grammar in Use 2</h5>
-                                                <h6 class="product-author">Raymond Murphy</h6>
-                                                <p><span class="discounted">$15</span>  $12.5</p>
-                                                <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.8 <span class="rating-amount">(4k rating)</span></p>
+                                                <h5 class="product-name">The English Sentence</h5>
+                                                <h6 class="product-author">Lucille J. K</h6>
+                                                <p><span class="discounted">$20</span>  $15</p>
+                                                <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.6 <span class="rating-amount">(542 rating)</span></p>
                                                 <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
                                             </div>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
                                         <div class="product">
-                                            <img class="product-image me-1" src="<?= base_url('assets/img/grammar-book.jpg');?>" alt="">
+                                            <img class="product-image me-1" src="<?= base_url('assets/img/grammar-book-3.jpg');?>" alt="">
                                             <div class="product-details">
                                                 <h5 class="product-name">English Grammar in Use 3</h5>
                                                 <h6 class="product-author">Raymond Murphy</h6>
-                                                <p><span class="discounted">$15</span>  $12.5</p>
-                                                <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.8 <span class="rating-amount">(4k rating)</span></p>
+                                                <p><span class="discounted">$25</span>  $15.5</p>
+                                                <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.5 <span class="rating-amount">(1k rating)</span></p>
                                                 <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
                                             </div>
                                         </div>
@@ -650,11 +650,23 @@
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
                                         <div class="product">
-                                            <img class="product-image me-1 p-1" src="<?= base_url('assets/img/grammar-book.jpg');?>" alt="">
+                                            <img class="product-image me-1 p-1" src="<?= base_url('assets/img/editing-book-3.jpeg');?>" alt="">
                                             <div class="product-details">
-                                                <h5 class="product-name">English Grammar in Use 1</h5>
-                                                <h6 class="product-author">Raymond Murphy</h6>
-                                                <p><span class="discounted">$15</span>  $12.5</p>
+                                            <h5 class="product-name">The English Sentence</h5>
+                                                <h6 class="product-author">Lucille J. K</h6>
+                                                <p><span class="discounted">$20</span>  $15</p>
+                                                <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.6 <span class="rating-amount">(542 rating)</span></p>
+                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="product">
+                                            <img class="product-image me-1" src="<?= base_url('assets/img/grammar-book-2.jpeg');?>" alt="">
+                                            <div class="product-details">
+                                                <h5 class="product-name">The Only Grammar Book You'll Ever Need</h5>
+                                                <h6 class="product-author">Susan Thurman</h6>
+                                                <p><span class="discounted">$10</span>  $8.5</p>
                                                 <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.8 <span class="rating-amount">(4k rating)</span></p>
                                                 <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
                                             </div>
@@ -662,24 +674,12 @@
                                     </div>
                                     <div class="carousel-item">
                                         <div class="product">
-                                            <img class="product-image me-1" src="<?= base_url('assets/img/grammar-book.jpg');?>" alt="">
+                                            <img class="product-image me-1" src="<?= base_url('assets/img/grammar-book-1.jpeg');?>" alt="">
                                             <div class="product-details">
-                                                <h5 class="product-name">English Grammar in Use 2</h5>
-                                                <h6 class="product-author">Raymond Murphy</h6>
-                                                <p><span class="discounted">$15</span>  $12.5</p>
-                                                <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.8 <span class="rating-amount">(4k rating)</span></p>
-                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="product">
-                                            <img class="product-image me-1" src="<?= base_url('assets/img/grammar-book.jpg');?>" alt="">
-                                            <div class="product-details">
-                                                <h5 class="product-name">English Grammar in Use 3</h5>
-                                                <h6 class="product-author">Raymond Murphy</h6>
-                                                <p><span class="discounted">$15</span>  $12.5</p>
-                                                <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.8 <span class="rating-amount">(4k rating)</span></p>
+                                                <h5 class="product-name">The English Grammar Book</h5>
+                                                <h6 class="product-author">Lauralee Moss</h6>
+                                                <p><span class="discounted">$17</span>  $14</p>
+                                                <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.6 <span class="rating-amount">(511 rating)</span></p>
                                                 <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
                                             </div>
                                         </div>
@@ -800,6 +800,7 @@ editing_bar.animate(editing_score);
 synthesis_bar.animate(synthesis_score);
 grammar_cloze_bar.animate(grammar_cloze_score);
 
+document.getElementById("init").focus();
 
 </script>
 </html>
