@@ -107,7 +107,7 @@ body {
 .total{
     background-color:#4EB7B5;
     border-radius: 5px;
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
     margin: 20px 0;
     background-image: url('../img/total-summary.svg');
     background-repeat: no-repeat;
@@ -151,18 +151,26 @@ body {
 }
 
 /* Score Section */
+.score-column{
+    display: flex;
+    flex-direction: column;
+}
+
+
 .score-section{
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
     padding: 10px 20px 20px 20px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .score-title{
     color: #4EB7B5;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .score{
@@ -189,6 +197,7 @@ body {
 }
   
 .progress-bar-circle svg {
+  max-width: 100%;
   height: 100px;
   width: 150px;
   fill: none;
@@ -243,6 +252,17 @@ body {
     font-weight: 700;
 }
 
+.table-body td{
+    font-size: 12px;
+}
+
+.program-cart-button{
+    border: 1px solid #D1D1D1;
+    border-radius: 8px;
+    padding: 5px 7px;
+    background-color: #FAFAFA;
+}
+
 .discounted{
     text-decoration: line-through;
     color:#FF0000;
@@ -253,40 +273,52 @@ body {
     font-size: 10px;
 }
 
-.recommendation-product{
+.recommendation-product, .recommendation-tutor{
     background-color: #FAFAFA;
     border-radius: 5px;
     width: 100%;
-    min-height: 220px;
+    min-height: 350px;
 }
 
-.product{
+.product,.tutor{
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 280px;
 }
 
-.product-image{
-    max-width: 150px;
+.product-image,.tutor-image{
+    max-height: 120px;
 }
 
-.product-details{
+.product-details,.tutor-details{
     font-weight: 700;
     font-style: normal;
+    margin-top: 10px;
+    text-align: center;
 }
 
-.product-details p{
+.product-details p,.tutor-details p{
     margin-bottom: 0;
 }
 
-.product-name{
+.product-name,.tutor-name{
     font-size: 16px;
     font-weight: 700;
 }
 
-.product-author{
+.product-author,.tutor-origin{
     font-size: 14px;
     font-weight: 700;
     color:#5158F5;
 }
+
+.tutor-lesson{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 
 .rating-amount{
     color: #D1D1D1;
@@ -326,7 +358,7 @@ body {
 
 @media (min-width:992px){
     .recommendation-section{
-        width: 37%;
+        width: 27%;
     }
 }
 
