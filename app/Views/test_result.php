@@ -221,7 +221,7 @@
                     <hr class="line">
                     <div class="row">
                         <!-- Score Section -->
-                        <div class="col-lg-3 col-md-12 col-sm-12">
+                        <div class="col-lg-2 col-md-12 col-sm-12 score-column">
                             <h6 class="score-title">Your Overall Score</h6>
                             <div class="score-section">
                                 <div class="progress-bar-circle" id="grammar-progress-bar"></div>
@@ -235,35 +235,41 @@
                         <div class="recommendation-section col-sm-12">
                             <h6 class="recommendation-title">Recommended Program</h6>
                             <div class="recommendation-program mt-3 p-2">
-                                <table class="table table-hover recommendation-table">
-                                    <thead class="table-header border-bottom">
-                                        <th>Program Name</th>
-                                        <th class="text-center">Price</th>
-                                        <th>Ratings</th>
-                                    </thead>
-                                    <tbody class="table-body">
-                                        <tr>
-                                            <td><img class="program-image"src="<?= base_url('assets/img/english-book1.jpg');?>" alt=""><a href="">Learn English with Lucy 4.0</a></td>
-                                            <td class="align-middle"><span class="discounted">$15</span>  $12.5</td>
-                                            <td class="align-middle"><i class="fa-solid fa-star star"></i> 4.8</td>
-                                        </tr>
-                                        <tr>
-                                            <td><img class="program-image"src="<?= base_url('assets/img/english-book2.jpg');?>" alt=""><a href="">How to Learn English Fast</a></td>
-                                            <td class="align-middle"><span class="discounted">$20</span>  $16.5</td>
-                                            <td class="align-middle"><i class="fa-solid fa-star star"></i> 5.0</td>
-                                        </tr>
-                                        <tr>
-                                            <td><img class="program-image"src="<?= base_url('assets/img/english-book3.jpg');?>" alt=""><a href="">No Worries! English is Fun!</a></td>
-                                            <td class="align-middle"><span class="discounted">$12</span>  $10</td>
-                                            <td class="align-middle"><i class="fa-solid fa-star star"></i> 4.9</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                <div class="table-responsive">
+                                    <table class="table table-hover recommendation-table">
+                                        <thead class="table-header border-bottom">
+                                            <th>Program Name</th>
+                                            <th class="text-center">Price</th>
+                                            <th>Ratings</th>
+                                            <th></th>
+                                        </thead>
+                                        <tbody class="table-body">
+                                            <tr>
+                                                <td><img class="program-image"src="<?= base_url('assets/img/english-book1.jpg');?>" alt=""><a href="">Learn English with Lucy 4.0</a></td>
+                                                <td class="align-middle"><span class="discounted">$15</span>  $12.5</td>
+                                                <td class="align-middle"><i class="fa-solid fa-star star"></i> 4.8</td>
+                                                <td class="align-middle"><button class="program-cart-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#959595" d="M10 19.5c0 .829-.672 1.5-1.5 1.5s-1.5-.671-1.5-1.5c0-.828.672-1.5 1.5-1.5s1.5.672 1.5 1.5zm3.5-1.5c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5zm1.336-5l1.977-7h-16.813l2.938 7h11.898zm4.969-10l-3.432 12h-12.597l.839 2h13.239l3.474-12h1.929l.743-2h-4.195z"/></svg></button></td>
+                                            </tr>
+                                            <tr>
+                                                <td><img class="program-image"src="<?= base_url('assets/img/english-book2.jpg');?>" alt=""><a href="">How to Learn English Fast</a></td>
+                                                <td class="align-middle"><span class="discounted">$20</span>  $16.5</td>
+                                                <td class="align-middle"><i class="fa-solid fa-star star"></i> 5.0</td>
+                                                <td class="align-middle"><button class="program-cart-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#959595" d="M10 19.5c0 .829-.672 1.5-1.5 1.5s-1.5-.671-1.5-1.5c0-.828.672-1.5 1.5-1.5s1.5.672 1.5 1.5zm3.5-1.5c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5zm1.336-5l1.977-7h-16.813l2.938 7h11.898zm4.969-10l-3.432 12h-12.597l.839 2h13.239l3.474-12h1.929l.743-2h-4.195z"/></svg></button></td>
+                                            </tr>
+                                            <tr>
+                                                <td><img class="program-image"src="<?= base_url('assets/img/english-book3.jpg');?>" alt=""><a href="">No Worries! English is Fun!</a></td>
+                                                <td class="align-middle"><span class="discounted">$12</span>  $10</td>
+                                                <td class="align-middle"><i class="fa-solid fa-star star"></i> 4.9</td>
+                                                <td class="align-middle"><button class="program-cart-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#959595" d="M10 19.5c0 .829-.672 1.5-1.5 1.5s-1.5-.671-1.5-1.5c0-.828.672-1.5 1.5-1.5s1.5.672 1.5 1.5zm3.5-1.5c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5zm1.336-5l1.977-7h-16.813l2.938 7h11.898zm4.969-10l-3.432 12h-12.597l.839 2h13.239l3.474-12h1.929l.743-2h-4.195z"/></svg></button></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
                         <!-- Recommendation Product -->
                         <div class="recommendation-section col-sm-12">
-                            <h6 class="recommendation-title">Recommended Product</h6>
+                            <h6 class="recommendation-title">Recommended Products</h6>
                             <div class="recommendation-product mt-3 p-4">
                             <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
                                 <div class="carousel-indicators">
@@ -280,7 +286,7 @@
                                                 <h6 class="product-author">Lauralee Moss</h6>
                                                 <p><span class="discounted">$17</span>  $14</p>
                                                 <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.6 <span class="rating-amount">(511 rating)</span></p>
-                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
+                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Add to Cart</button> 
                                             </div>
                                         </div>
                                     </div>
@@ -292,7 +298,7 @@
                                                 <h6 class="product-author">Raymond Murphy</h6>
                                                 <p><span class="discounted">$15</span>  $12.5</p>
                                                 <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.8 <span class="rating-amount">(4k rating)</span></p>
-                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
+                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Add to Cart</button> 
                                             </div>
                                         </div>
                                     </div>
@@ -304,10 +310,42 @@
                                                 <h6 class="product-author">Susan Thurman</h6>
                                                 <p><span class="discounted">$10</span>  $8.5</p>
                                                 <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.8 <span class="rating-amount">(4k rating)</span></p>
-                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
+                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Add to Cart</button> 
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                                
+                            </div>
+                        </div>
+                        <!-- Recommendation Tutor -->
+                        <div class="recommendation-section col-sm-12">
+                            <h6 class="recommendation-title">Recommended Tutors</h6>
+                            <div class="recommendation-tutor mt-3 p-4">
+                            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="tutor">
+                                            <img class="tutor-image me-1" src="<?= base_url('assets/img/elon.png');?>" alt="">
+                                            <div class="tutor-details">
+                                                <h5 class="tutor-name">Elon Musk</h5>
+                                                <h6 class="tutor-origin">Tesla Inc.</h6>
+                                                <div class="tutor-lesson mb-1">
+                                                    <p><img src="<?= base_url('assets/img/lessons.svg');?>" alt=""> 10 Lessons</p>
+                                                    <p><img src="<?= base_url('assets/img/time-circle.svg');?>" alt=""> 5hr 3m</p>
+                                                </div>
+                                                <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.6 <span class="rating-amount">(511 rating)</span></p>
+                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Add to Cart</button> 
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                                 
@@ -325,7 +363,7 @@
                     <hr class="line">
                     <div class="row">
                         <!-- Score Section -->
-                        <div class="col-lg-3 col-md-12 col-sm-12">
+                        <div class="col-lg-2 col-md-12 col-sm-12 score-column">
                             <h6 class="score-title">Your Overall Score</h6>
                             <div class="score-section">
                                 <div class="progress-bar-circle" id="vocabulary-progress-bar"></div>
@@ -344,22 +382,26 @@
                                         <th>Program Name</th>
                                         <th class="text-center">Price</th>
                                         <th>Ratings</th>
+                                        <th></th>
                                     </thead>
                                     <tbody class="table-body">
                                         <tr>
                                             <td><img class="program-image"src="<?= base_url('assets/img/english-book1.jpg');?>" alt=""><a href="">Complete the Sentence!</a></td>
                                             <td class="align-middle"><span class="discounted">$12</span>  $10</td>
                                             <td class="align-middle"><i class="fa-solid fa-star star"></i> 4.6</td>
+                                            <td class="align-middle"><button class="program-cart-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#959595" d="M10 19.5c0 .829-.672 1.5-1.5 1.5s-1.5-.671-1.5-1.5c0-.828.672-1.5 1.5-1.5s1.5.672 1.5 1.5zm3.5-1.5c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5zm1.336-5l1.977-7h-16.813l2.938 7h11.898zm4.969-10l-3.432 12h-12.597l.839 2h13.239l3.474-12h1.929l.743-2h-4.195z"/></svg></button></td>
                                         </tr>
                                         <tr>
                                             <td><img class="program-image"src="<?= base_url('assets/img/english-book2.jpg');?>" alt=""><a href="">English for Beginners</a></td>
                                             <td class="align-middle"><span class="discounted">$15</span>  $13.5</td>
                                             <td class="align-middle"><i class="fa-solid fa-star star"></i> 4.9</td>
+                                            <td class="align-middle"><button class="program-cart-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#959595" d="M10 19.5c0 .829-.672 1.5-1.5 1.5s-1.5-.671-1.5-1.5c0-.828.672-1.5 1.5-1.5s1.5.672 1.5 1.5zm3.5-1.5c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5zm1.336-5l1.977-7h-16.813l2.938 7h11.898zm4.969-10l-3.432 12h-12.597l.839 2h13.239l3.474-12h1.929l.743-2h-4.195z"/></svg></button></td>
                                         </tr>
                                         <tr>
                                             <td><img class="program-image"src="<?= base_url('assets/img/english-book3.jpg');?>" alt=""><a href="">Building Your English Brain</a></td>
                                             <td class="align-middle"><span class="discounted">$25</span>  $20</td>
                                             <td class="align-middle"><i class="fa-solid fa-star star"></i> 5</td>
+                                            <td class="align-middle"><button class="program-cart-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#959595" d="M10 19.5c0 .829-.672 1.5-1.5 1.5s-1.5-.671-1.5-1.5c0-.828.672-1.5 1.5-1.5s1.5.672 1.5 1.5zm3.5-1.5c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5zm1.336-5l1.977-7h-16.813l2.938 7h11.898zm4.969-10l-3.432 12h-12.597l.839 2h13.239l3.474-12h1.929l.743-2h-4.195z"/></svg></button></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -384,7 +426,7 @@
                                                 <h6 class="product-author">Merriam Webster</h6>
                                                 <p><span class="discounted">$7</span>  $6</p>
                                                 <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.7 <span class="rating-amount">(2k rating)</span></p>
-                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
+                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Add to Cart</button> 
                                             </div>
                                         </div>
                                     </div>
@@ -396,7 +438,7 @@
                                                 <h6 class="product-author">Gary Robert Muschla</h6>
                                                 <p><span class="discounted">$14</span>  $12.6</p>
                                                 <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.7 <span class="rating-amount">(4k rating)</span></p>
-                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
+                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Add to Cart</button> 
                                             </div>
                                         </div>
                                     </div>
@@ -408,10 +450,42 @@
                                                 <h6 class="product-author">Ruthna Garnier</h6>
                                                 <p><span class="discounted">$10</span>  $8.5</p>
                                                 <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.6 <span class="rating-amount">(2k rating)</span></p>
-                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
+                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Add to Cart</button> 
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                                
+                            </div>
+                        </div>
+                        <!-- Recommendation Tutor -->
+                        <div class="recommendation-section col-sm-12">
+                            <h6 class="recommendation-title">Recommended Tutors</h6>
+                            <div class="recommendation-tutor mt-3 p-4">
+                            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="tutor">
+                                            <img class="tutor-image me-1" src="<?= base_url('assets/img/elon.png');?>" alt="">
+                                            <div class="tutor-details">
+                                                <h5 class="tutor-name">Elon Musk</h5>
+                                                <h6 class="tutor-origin">Tesla Inc.</h6>
+                                                <div class="tutor-lesson mb-1">
+                                                    <p><img src="<?= base_url('assets/img/lessons.svg');?>" alt=""> 10 Lessons</p>
+                                                    <p><img src="<?= base_url('assets/img/time-circle.svg');?>" alt=""> 5hr 3m</p>
+                                                </div>
+                                                <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.6 <span class="rating-amount">(511 rating)</span></p>
+                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Add to Cart</button> 
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                                 
@@ -429,7 +503,7 @@
                     <hr class="line">
                     <div class="row">
                         <!-- Score Section -->
-                        <div class="col-lg-3 col-md-12 col-sm-12">
+                        <div class="col-lg-2 col-md-12 col-sm-12 score-column">
                             <h6 class="score-title">Your Overall Score</h6>
                             <div class="score-section">
                                 <div class="progress-bar-circle" id="editing-progress-bar"></div>
@@ -448,22 +522,26 @@
                                         <th>Program Name</th>
                                         <th class="text-center">Price</th>
                                         <th>Ratings</th>
+                                        <th></th>
                                     </thead>
                                     <tbody class="table-body">
                                         <tr>
                                             <td><img class="program-image"src="<?= base_url('assets/img/english-book1.jpg');?>" alt=""><a href="">English Phrasal Verb for Beginner</a></td>
                                             <td class="align-middle"><span class="discounted">$20</span>  $17.5</td>
                                             <td class="align-middle"><i class="fa-solid fa-star star"></i> 4.8</td>
+                                            <td class="align-middle"><button class="program-cart-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#959595" d="M10 19.5c0 .829-.672 1.5-1.5 1.5s-1.5-.671-1.5-1.5c0-.828.672-1.5 1.5-1.5s1.5.672 1.5 1.5zm3.5-1.5c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5zm1.336-5l1.977-7h-16.813l2.938 7h11.898zm4.969-10l-3.432 12h-12.597l.839 2h13.239l3.474-12h1.929l.743-2h-4.195z"/></svg></button></td>
                                         </tr>
                                         <tr>
                                             <td><img class="program-image"src="<?= base_url('assets/img/english-book2.jpg');?>" alt=""><a href="">English Writing & Grammar for Beginner</a></td>
                                             <td class="align-middle"><span class="discounted">$15</span>  $12.5</td>
                                             <td class="align-middle"><i class="fa-solid fa-star star"></i> 4.8</td>
+                                            <td class="align-middle"><button class="program-cart-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#959595" d="M10 19.5c0 .829-.672 1.5-1.5 1.5s-1.5-.671-1.5-1.5c0-.828.672-1.5 1.5-1.5s1.5.672 1.5 1.5zm3.5-1.5c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5zm1.336-5l1.977-7h-16.813l2.938 7h11.898zm4.969-10l-3.432 12h-12.597l.839 2h13.239l3.474-12h1.929l.743-2h-4.195z"/></svg></button></td>
                                         </tr>
                                         <tr>
                                             <td><img class="program-image"src="<?= base_url('assets/img/english-book3.jpg');?>" alt=""><a href="">No Worries! English is Fun!</a></td>
                                             <td class="align-middle"><span class="discounted">$30</span>  $16</td>
                                             <td class="align-middle"><i class="fa-solid fa-star star"></i> 4.5</td>
+                                            <td class="align-middle"><button class="program-cart-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#959595" d="M10 19.5c0 .829-.672 1.5-1.5 1.5s-1.5-.671-1.5-1.5c0-.828.672-1.5 1.5-1.5s1.5.672 1.5 1.5zm3.5-1.5c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5zm1.336-5l1.977-7h-16.813l2.938 7h11.898zm4.969-10l-3.432 12h-12.597l.839 2h13.239l3.474-12h1.929l.743-2h-4.195z"/></svg></button></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -488,7 +566,7 @@
                                                 <h6 class="product-author">Steven Harry</h6>
                                                 <p><span class="discounted">$10</span>  $8.5</p>
                                                 <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.8 <span class="rating-amount">(3k rating)</span></p>
-                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
+                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Add to Cart</button> 
                                             </div>
                                         </div>
                                     </div>
@@ -500,7 +578,7 @@
                                                 <h6 class="product-author">Raffy Morbin</h6>
                                                 <p><span class="discounted">$12</span>  $6</p>
                                                 <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 5 <span class="rating-amount">(5k rating)</span></p>
-                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
+                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Add to Cart</button> 
                                             </div>
                                         </div>
                                     </div>
@@ -512,10 +590,42 @@
                                                 <h6 class="product-author">Lucille J. K</h6>
                                                 <p><span class="discounted">$20</span>  $15</p>
                                                 <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.6 <span class="rating-amount">(542 rating)</span></p>
-                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
+                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Add to Cart</button> 
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                                
+                            </div>
+                        </div>
+                        <!-- Recommendation Tutor -->
+                        <div class="recommendation-section col-sm-12">
+                            <h6 class="recommendation-title">Recommended Tutors</h6>
+                            <div class="recommendation-tutor mt-3 p-4">
+                            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="tutor">
+                                            <img class="tutor-image me-1" src="<?= base_url('assets/img/elon.png');?>" alt="">
+                                            <div class="tutor-details">
+                                                <h5 class="tutor-name">Elon Musk</h5>
+                                                <h6 class="tutor-origin">Tesla Inc.</h6>
+                                                <div class="tutor-lesson mb-1">
+                                                    <p><img src="<?= base_url('assets/img/lessons.svg');?>" alt=""> 10 Lessons</p>
+                                                    <p><img src="<?= base_url('assets/img/time-circle.svg');?>" alt=""> 5hr 3m</p>
+                                                </div>
+                                                <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.6 <span class="rating-amount">(511 rating)</span></p>
+                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Add to Cart</button> 
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                                 
@@ -533,7 +643,7 @@
                     <hr class="line">
                     <div class="row">
                         <!-- Score Section -->
-                        <div class="col-lg-3 col-md-12 col-sm-12">
+                        <div class="col-lg-2 col-md-12 col-sm-12 score-column">
                             <h6 class="score-title">Your Overall Score</h6>
                             <div class="score-section">
                                 <div class="progress-bar-circle" id="synthesis-progress-bar"></div>
@@ -552,22 +662,26 @@
                                         <th>Program Name</th>
                                         <th class="text-center">Price</th>
                                         <th>Ratings</th>
+                                        <th></th>
                                     </thead>
                                     <tbody class="table-body">
                                         <tr>
                                             <td><img class="program-image"src="<?= base_url('assets/img/english-book1.jpg');?>" alt=""><a href="">Learn English with Lucy 4.0</a></td>
                                             <td class="align-middle"><span class="discounted">$15</span>  $12.5</td>
                                             <td class="align-middle"><i class="fa-solid fa-star star"></i> 4.8</td>
+                                            <td class="align-middle"><button class="program-cart-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#959595" d="M10 19.5c0 .829-.672 1.5-1.5 1.5s-1.5-.671-1.5-1.5c0-.828.672-1.5 1.5-1.5s1.5.672 1.5 1.5zm3.5-1.5c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5zm1.336-5l1.977-7h-16.813l2.938 7h11.898zm4.969-10l-3.432 12h-12.597l.839 2h13.239l3.474-12h1.929l.743-2h-4.195z"/></svg></button></td>
                                         </tr>
                                         <tr>
                                             <td><img class="program-image"src="<?= base_url('assets/img/english-book2.jpg');?>" alt=""><a href="">How to Learn English Fast</a></td>
                                             <td class="align-middle"><span class="discounted">$15</span>  $12.5</td>
                                             <td class="align-middle"><i class="fa-solid fa-star star"></i> 4.8</td>
+                                            <td class="align-middle"><button class="program-cart-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#959595" d="M10 19.5c0 .829-.672 1.5-1.5 1.5s-1.5-.671-1.5-1.5c0-.828.672-1.5 1.5-1.5s1.5.672 1.5 1.5zm3.5-1.5c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5zm1.336-5l1.977-7h-16.813l2.938 7h11.898zm4.969-10l-3.432 12h-12.597l.839 2h13.239l3.474-12h1.929l.743-2h-4.195z"/></svg></button></td>
                                         </tr>
                                         <tr>
                                             <td><img class="program-image"src="<?= base_url('assets/img/english-book3.jpg');?>" alt=""><a href="">No Worries! English is Fun!</a></td>
                                             <td class="align-middle"><span class="discounted">$15</span>  $12.5</td>
                                             <td class="align-middle"><i class="fa-solid fa-star star"></i> 4.8</td>
+                                            <td class="align-middle"><button class="program-cart-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#959595" d="M10 19.5c0 .829-.672 1.5-1.5 1.5s-1.5-.671-1.5-1.5c0-.828.672-1.5 1.5-1.5s1.5.672 1.5 1.5zm3.5-1.5c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5zm1.336-5l1.977-7h-16.813l2.938 7h11.898zm4.969-10l-3.432 12h-12.597l.839 2h13.239l3.474-12h1.929l.743-2h-4.195z"/></svg></button></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -592,7 +706,7 @@
                                                 <h6 class="product-author">Ruthna Garnier</h6>
                                                 <p><span class="discounted">$10</span>  $8.5</p>
                                                 <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.6 <span class="rating-amount">(2k rating)</span></p>
-                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
+                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Add to Cart</button> 
                                             </div>
                                         </div>
                                     </div>
@@ -604,7 +718,7 @@
                                                 <h6 class="product-author">Lucille J. K</h6>
                                                 <p><span class="discounted">$20</span>  $15</p>
                                                 <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.6 <span class="rating-amount">(542 rating)</span></p>
-                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
+                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Add to Cart</button> 
                                             </div>
                                         </div>
                                     </div>
@@ -616,10 +730,42 @@
                                                 <h6 class="product-author">Raymond Murphy</h6>
                                                 <p><span class="discounted">$25</span>  $15.5</p>
                                                 <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.5 <span class="rating-amount">(1k rating)</span></p>
-                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
+                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Add to Cart</button> 
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                                
+                            </div>
+                        </div>
+                        <!-- Recommendation Tutor -->
+                        <div class="recommendation-section col-sm-12">
+                            <h6 class="recommendation-title">Recommended Tutors</h6>
+                            <div class="recommendation-tutor mt-3 p-4">
+                            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="tutor">
+                                            <img class="tutor-image me-1" src="<?= base_url('assets/img/elon.png');?>" alt="">
+                                            <div class="tutor-details">
+                                                <h5 class="tutor-name">Elon Musk</h5>
+                                                <h6 class="tutor-origin">Tesla Inc.</h6>
+                                                <div class="tutor-lesson mb-1">
+                                                    <p><img src="<?= base_url('assets/img/lessons.svg');?>" alt=""> 10 Lessons</p>
+                                                    <p><img src="<?= base_url('assets/img/time-circle.svg');?>" alt=""> 5hr 3m</p>
+                                                </div>
+                                                <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.6 <span class="rating-amount">(511 rating)</span></p>
+                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Add to Cart</button> 
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                                 
@@ -637,7 +783,7 @@
                     <hr class="line">
                     <div class="row">
                         <!-- Score Section -->
-                        <div class="col-lg-3 col-md-12 col-sm-12">
+                        <div class="col-lg-2 col-md-12 col-sm-12 score-column">
                             <h6 class="score-title">Your Overall Score</h6>
                             <div class="score-section">
                                 <div class="progress-bar-circle" id="grammar-cloze-progress-bar"></div>
@@ -656,22 +802,26 @@
                                         <th>Program Name</th>
                                         <th class="text-center">Price</th>
                                         <th>Ratings</th>
+                                        <th></th>
                                     </thead>
                                     <tbody class="table-body">
                                         <tr>
                                             <td><img class="program-image"src="<?= base_url('assets/img/english-book1.jpg');?>" alt=""><a href="">Learn English with Lucy 4.0</a></td>
                                             <td class="align-middle"><span class="discounted">$15</span>  $12.5</td>
                                             <td class="align-middle"><i class="fa-solid fa-star star"></i> 4.8</td>
+                                            <td class="align-middle"><button class="program-cart-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#959595" d="M10 19.5c0 .829-.672 1.5-1.5 1.5s-1.5-.671-1.5-1.5c0-.828.672-1.5 1.5-1.5s1.5.672 1.5 1.5zm3.5-1.5c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5zm1.336-5l1.977-7h-16.813l2.938 7h11.898zm4.969-10l-3.432 12h-12.597l.839 2h13.239l3.474-12h1.929l.743-2h-4.195z"/></svg></button></td>
                                         </tr>
                                         <tr>
                                             <td><img class="program-image"src="<?= base_url('assets/img/english-book2.jpg');?>" alt=""><a href="">How to Learn English Fast</a></td>
                                             <td class="align-middle"><span class="discounted">$15</span>  $12.5</td>
                                             <td class="align-middle"><i class="fa-solid fa-star star"></i> 4.8</td>
+                                            <td class="align-middle"><button class="program-cart-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#959595" d="M10 19.5c0 .829-.672 1.5-1.5 1.5s-1.5-.671-1.5-1.5c0-.828.672-1.5 1.5-1.5s1.5.672 1.5 1.5zm3.5-1.5c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5zm1.336-5l1.977-7h-16.813l2.938 7h11.898zm4.969-10l-3.432 12h-12.597l.839 2h13.239l3.474-12h1.929l.743-2h-4.195z"/></svg></button></td>
                                         </tr>
                                         <tr>
                                             <td><img class="program-image"src="<?= base_url('assets/img/english-book3.jpg');?>" alt=""><a href="">No Worries! English is Fun!</a></td>
                                             <td class="align-middle"><span class="discounted">$15</span>  $12.5</td>
                                             <td class="align-middle"><i class="fa-solid fa-star star"></i> 4.8</td>
+                                            <td class="align-middle"><button class="program-cart-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#959595" d="M10 19.5c0 .829-.672 1.5-1.5 1.5s-1.5-.671-1.5-1.5c0-.828.672-1.5 1.5-1.5s1.5.672 1.5 1.5zm3.5-1.5c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5zm1.336-5l1.977-7h-16.813l2.938 7h11.898zm4.969-10l-3.432 12h-12.597l.839 2h13.239l3.474-12h1.929l.743-2h-4.195z"/></svg></button></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -696,7 +846,7 @@
                                                 <h6 class="product-author">Lucille J. K</h6>
                                                 <p><span class="discounted">$20</span>  $15</p>
                                                 <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.6 <span class="rating-amount">(542 rating)</span></p>
-                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
+                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Add to Cart</button> 
                                             </div>
                                         </div>
                                     </div>
@@ -708,7 +858,7 @@
                                                 <h6 class="product-author">Susan Thurman</h6>
                                                 <p><span class="discounted">$10</span>  $8.5</p>
                                                 <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.8 <span class="rating-amount">(4k rating)</span></p>
-                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
+                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Add to Cart</button> 
                                             </div>
                                         </div>
                                     </div>
@@ -720,10 +870,42 @@
                                                 <h6 class="product-author">Lauralee Moss</h6>
                                                 <p><span class="discounted">$17</span>  $14</p>
                                                 <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.6 <span class="rating-amount">(511 rating)</span></p>
-                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Buy Book</button> 
+                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Add to Cart</button> 
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                                
+                            </div>
+                        </div>
+                        <!-- Recommendation Tutor -->
+                        <div class="recommendation-section col-sm-12">
+                            <h6 class="recommendation-title">Recommended Tutors</h6>
+                            <div class="recommendation-tutor mt-3 p-4">
+                            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="tutor">
+                                            <img class="tutor-image me-1" src="<?= base_url('assets/img/elon.png');?>" alt="">
+                                            <div class="tutor-details">
+                                                <h5 class="tutor-name">Elon Musk</h5>
+                                                <h6 class="tutor-origin">Tesla Inc.</h6>
+                                                <div class="tutor-lesson mb-1">
+                                                    <p><img src="<?= base_url('assets/img/lessons.svg');?>" alt=""> 10 Lessons</p>
+                                                    <p><img src="<?= base_url('assets/img/time-circle.svg');?>" alt=""> 5hr 3m</p>
+                                                </div>
+                                                <p class="mb-2"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i> 4.6 <span class="rating-amount">(511 rating)</span></p>
+                                                <button class="btn btn-outline-grey buy-btn"><img class="me-1" src="<?= base_url('assets/img/shopping-cart.svg');?>" alt="">Add to Cart</button> 
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                                 
